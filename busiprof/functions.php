@@ -98,11 +98,6 @@ function busiprof_register_required_plugins() {
     $plugins = array(
         // This is an example of how to include a plugin from the WordPress Plugin Repository.
         array(
-            'name' => esc_html__('Webriti Companion','busiprof'),
-            'slug' => 'webriti-companion',
-            'required' => false,
-        ),
-        array(
             'name' => esc_html__('Carousel, Recent Post Slider and Banner Slider','busiprof'),
             'slug' => 'spice-post-slider',
             'required' => false,
@@ -209,7 +204,7 @@ function busiprof_tag_cloud($tag_string){
   return preg_replace('/style=("|\')(.*?)("|\')/','',$tag_string);
 }
 $busiprof_theme = wp_get_theme();
-if ('Busiprof' == $busiprof_theme->name) {
+if ('Busiprof' == $busiprof_theme->name  || $busiprof_theme->name == 'ARzine') {
     if (is_admin()) {
         require  BUSI_TEMPLATE_DIR . '/admin/admin-init.php';
     }
@@ -251,63 +246,55 @@ function busiprof_skip_link_focus_fix() {
     <?php
 }
 add_action( 'wp_print_footer_scripts', 'busiprof_skip_link_focus_fix' );
-if( $busiprof_theme->name == 'Busiprof' || $busiprof_theme->name == 'Busiprof child' || $busiprof_theme->name == 'Busiprof Child' ) {
+if( $busiprof_theme->name == 'Busiprof' || $busiprof_theme->name == 'Busiprof child' || $busiprof_theme->name == 'Busiprof Child' || $busiprof_theme->name == 'ARzine') {
     // Notice to add required plugin
     function busiprof_admin_plugin_notice_warn() {
+        global $hook_suffix;
         $theme_name = wp_get_theme();
-        if ( get_option( 'dismissed-busiprof_comanion_plugin', false ) ) {
-           return;
-        }
-        if ( function_exists('webriti_companion_activate')) {
-            return;
-        }?>
-        <div class="updated notice is-dismissible busiprof-theme-notice">
+        if($hook_suffix === 'themes.php'){
+            if ( get_option( 'dismissed-busiprof_comanion_plugin', false ) ) {
+               return;
+            }
+            if ( function_exists('webriti_companion_activate')) {
+                return;
+            }?>
+            <div class="updated notice is-dismissible busiprof-theme-notice">
 
-            <div class="owc-header">
-                <h2 class="theme-owc-title">               
-                    <svg height="60" width="60" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70"><defs><style>.cls-1{font-size:33px;font-family:Verdana-Bold, Verdana;font-weight:700;}</style></defs><title>Artboard 1</title><text class="cls-1" transform="translate(-0.56 51.25)">WC</text></svg>
-                    <?php echo esc_html('Webriti Companion','busiprof');?>
-                </h2>
-            </div>
-            <div class="busiprof-theme-content">
-                <h3><?php printf (esc_html__('Thank you for installing the %1$s theme.', 'busiprof'), esc_html($theme_name)); ?></h3>
+                <div class="owc-header">
+                    <h2 class="theme-owc-title">               
+                        <svg height="60" width="60" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70"><defs><style>.cls-1{font-size:33px;font-family:Verdana-Bold, Verdana;font-weight:700;}</style></defs><title>Artboard 1</title><text class="cls-1" transform="translate(-0.56 51.25)">WC</text></svg>
+                        <?php echo esc_html('Webriti Companion','busiprof');?>
+                    </h2>
+                </div>
+                <div class="busiprof-theme-content">
+                    <h3><?php printf (esc_html__('Thank you for installing the %1$s theme.', 'busiprof'), esc_html($theme_name)); ?></h3>
 
-                <p><?php esc_html_e( 'We highly recommend you to install and activate the', 'busiprof' ); ?>
-                    <b><?php esc_html_e( 'Webriti Companion', 'busiprof' ); ?></b> plugin.
-                    <br>
-                    <?php esc_html_e( 'This plugin will unlock enhanced features to build a beautiful website.', 'busiprof' ); ?>
-                </p>
-                <?php
-                $busiprof_companion_about_page = busiprof_About_Page();            
-                $busiprof_actions = $busiprof_companion_about_page->recommended_actions;
-                $busiprof_actions_todo = get_option( 'recommended_actions', false );
-                if($busiprof_actions): 
-                    foreach ($busiprof_actions as $key => $busiprof_val):
-                        if($busiprof_val['id']=='install_webriti-companion'):
-                            /* translators: %s: theme name */
-                            echo '<p>'.wp_kses_post($busiprof_val['link']).'</p>';
-                        endif;
-                    endforeach;
-                endif;?>
+                    <p><?php esc_html_e( 'We highly recommend you to install and activate the', 'busiprof' ); ?>
+                        <b><?php esc_html_e( 'Webriti Companion', 'busiprof' ); ?></b> plugin.
+                        <br>
+                        <?php esc_html_e( 'This plugin will unlock enhanced features to build a beautiful website.', 'busiprof' ); ?>
+                    </p>
+                    <button id="install-plugin-button-welcome-page" data-plugin-url="<?php echo esc_url( 'https://webriti.com/extensions/webriti-companion.zip');?>"><?php echo esc_html__( 'Install', 'busiprof' ); ?></button>
+                </div>
             </div>
-        </div>
-        
-        <script type="text/javascript">
-            jQuery(function($) {
-            $( document ).on( 'click', '.busiprof-theme-notice .notice-dismiss', function () {
-                var type = $( this ).closest( '.busiprof-theme-notice' ).data( 'notice' );
-                $.ajax( ajaxurl,
-                  {
-                    type: 'POST',
-                    data: {
-                      action: 'dismissed_notice_handler',
-                      type: type,
-                    }
+            
+            <script type="text/javascript">
+                jQuery(function($) {
+                $( document ).on( 'click', '.busiprof-theme-notice .notice-dismiss', function () {
+                    var type = $( this ).closest( '.busiprof-theme-notice' ).data( 'notice' );
+                    $.ajax( ajaxurl,
+                      {
+                        type: 'POST',
+                        data: {
+                          action: 'dismissed_notice_handler',
+                          type: type,
+                        }
+                      } );
                   } );
-              } );
-          });
-        </script>
-    <?php
+              });
+            </script>
+       <?php
+        }
     }
     add_action( 'admin_notices', 'busiprof_admin_plugin_notice_warn' );
     add_action( 'wp_ajax_dismissed_notice_handler', 'busiprof_ajax_notice_handler');
@@ -316,4 +303,101 @@ if( $busiprof_theme->name == 'Busiprof' || $busiprof_theme->name == 'Busiprof ch
         update_option( 'dismissed-busiprof_comanion_plugin', TRUE );
     }
 }
-?>
+
+// Hook the AJAX action for logged-in users
+add_action('wp_ajax_busiprof_check_plugin_status', 'busiprof_check_plugin_status');
+
+function busiprof_check_plugin_status() {
+    if (!current_user_can('install_plugins')) {
+        wp_send_json_error('You do not have permission to manage plugins.');
+        return;
+    }
+
+    if (!isset($_POST['plugin_slug'])) {
+        wp_send_json_error('No plugin slug provided.');
+        return;
+    }
+
+    $plugin_slug = sanitize_text_field($_POST['plugin_slug']);
+    $plugin_main_file = $plugin_slug . '/' . $plugin_slug . '.php'; // Adjust this based on your plugin structure
+
+    // Check if the plugin exists
+    $plugins = get_plugins();
+    if (isset($plugins[$plugin_main_file])) {
+        if (is_plugin_active($plugin_main_file)) {
+            wp_send_json_success(array('status' => 'activated'));
+        } else {
+            wp_send_json_success(array('status' => 'installed'));
+        }
+    } else {
+        wp_send_json_success(array('status' => 'not_installed'));
+    }
+}
+
+// Existing AJAX installation function for installing and activating
+add_action('wp_ajax_busiprof_install_activate_plugin', 'busiprof_install_and_activate_plugin');
+
+function busiprof_install_and_activate_plugin() {
+    if (!current_user_can('install_plugins')) {
+        wp_send_json_error('You do not have permission to install plugins.');
+        return;
+    }
+
+    if (!isset($_POST['plugin_url'])) {
+        wp_send_json_error('No plugin URL provided.');
+        return;
+    }
+
+    // Include necessary WordPress files for plugin installation
+    include_once(ABSPATH . 'wp-admin/includes/file.php');
+    include_once(ABSPATH . 'wp-admin/includes/misc.php');
+    include_once(ABSPATH . 'wp-admin/includes/class-wp-upgrader.php');
+    include_once(ABSPATH . 'wp-admin/includes/plugin.php');
+
+    $plugin_url = esc_url($_POST['plugin_url']);
+    $plugin_slug = sanitize_text_field($_POST['plugin_slug']);
+    $plugin_main_file = $plugin_slug . '/' . $plugin_slug . '.php'; // Ensure this matches your plugin structure
+
+    // Download the plugin file
+    WP_Filesystem();
+    $temp_file = download_url($plugin_url);
+
+    if (is_wp_error($temp_file)) {
+        wp_send_json_error($temp_file->get_error_message());
+        return;
+    }
+
+    // Unzip the plugin to the plugins folder
+    $plugin_folder = WP_PLUGIN_DIR;
+    $result = unzip_file($temp_file, $plugin_folder);
+    
+    // Clean up temporary file
+    unlink($temp_file);
+
+    if (is_wp_error($result)) {
+        wp_send_json_error($result->get_error_message());
+        return;
+    }
+
+    // Activate the plugin if it was installed
+    $activate_result = activate_plugin($plugin_main_file);
+
+    
+
+    // Return success with redirect URL
+    wp_send_json_success(array('redirect_url' => admin_url('admin.php?page=busiprof-welcome')));
+}
+
+// Enqueue JavaScript for the button functionality
+add_action('admin_enqueue_scripts', 'busiprof_enqueue_plugin_installer_script');
+
+function busiprof_enqueue_plugin_installer_script() {
+    global $hook_suffix;
+    wp_enqueue_script('busiprof-plugin-installer-js',  BUSI_TEMPLATE_DIR_URI . '/admin/assets/js/plugin-installer.js', array('jquery'), null, true);
+    wp_localize_script('busiprof-plugin-installer-js', 'pluginInstallerAjax', array(
+        'ajax_url' => admin_url('admin-ajax.php'),
+        'hook_suffix' => $hook_suffix,
+        'nonce' => wp_create_nonce('plugin_installer_nonce'),
+
+    ));
+}

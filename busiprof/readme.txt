@@ -2,8 +2,8 @@
 
 Contributors: priyanshumittal
 Requires at least: 4.5
-Tested up to: 6.4
-Stable tag: 2.4.8
+Tested up to: 6.6
+Stable tag: 2.4.9
 Requires PHP: 5.4
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 License: GNU General Public License v2 or later
@@ -56,6 +56,9 @@ Busiprof WordPress Theme is distributed under the terms of the GNU GPL
 
 
 == Changelog ==
+
+@version 2.4.9
+1. Updated the options page.
 
 @version 2.4.8
 1. Updated font-awesome library.
