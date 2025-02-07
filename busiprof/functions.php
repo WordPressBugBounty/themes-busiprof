@@ -129,8 +129,6 @@ function busiprof_customizer_css() {
 }
 add_action('admin_init', 'busiprof_customizer_css');
 //theme ckeck plugin required
-add_theme_support('automatic-feed-links');
-add_theme_support('woocommerce');
 if (!function_exists('busiprof_setup')) :
     function busiprof_setup() {
         /*
@@ -148,6 +146,10 @@ if (!function_exists('busiprof_setup')) :
         add_theme_support('title-tag');
         // supports featured image
         add_theme_support('post-thumbnails');
+
+        // woocommerce support
+        add_theme_support('woocommerce');
+        
         //Custom logo
         add_theme_support('custom-logo', array(
             'width' => 300,
@@ -203,12 +205,17 @@ add_filter('wp_generate_tag_cloud', 'busiprof_tag_cloud',10,1);
 function busiprof_tag_cloud($tag_string){
   return preg_replace('/style=("|\')(.*?)("|\')/','',$tag_string);
 }
-$busiprof_theme = wp_get_theme();
-if ('Busiprof' == $busiprof_theme->name  || $busiprof_theme->name == 'ARzine') {
-    if (is_admin()) {
-        require  BUSI_TEMPLATE_DIR . '/admin/admin-init.php';
+
+//About Theme
+add_action( 'init', function() {
+    $busiprof_theme = wp_get_theme();
+    if ('Busiprof' == $busiprof_theme->name  || $busiprof_theme->name == 'ARzine') {
+        if (is_admin()) {
+            require  BUSI_TEMPLATE_DIR . '/admin/admin-init.php';
+        }
     }
-}
+});
+
 if (!function_exists('wp_body_open')) {
 
     function wp_body_open() {
@@ -218,17 +225,22 @@ if (!function_exists('wp_body_open')) {
         do_action('wp_body_open');
     }
 }
-//Custom CSS compatibility
-$busiprof_theme_options = busiprof_theme_setup_data();
-$busiprof_current_options = wp_parse_args(get_option('busiprof_theme_options', array()), $busiprof_theme_options);
-if ($busiprof_current_options['busiprof_custom_css'] != '' && $busiprof_current_options['busiprof_custom_css'] != 'nomorenow') {
-    $busiprof_css = '';
-    $busiprof_css .= $busiprof_current_options['busiprof_custom_css'];
-    $busiprof_css .= (string) wp_get_custom_css(get_stylesheet());
-    $busiprof_current_options['busiprof_custom_css'] = 'nomorenow';
-    update_option('busiprof_theme_options', $busiprof_current_options);
-    wp_update_custom_css_post($busiprof_css, array());
+
+// Custom CSS compatibility - Run after WordPress is fully loaded
+function busiprof_custom_css_compatibility() {
+    $busiprof_theme_options = busiprof_theme_setup_data();
+    $busiprof_current_options = wp_parse_args(get_option('busiprof_theme_options', array()), $busiprof_theme_options);
+    if ($busiprof_current_options['busiprof_custom_css'] != '' && $busiprof_current_options['busiprof_custom_css'] != 'nomorenow') {
+        $busiprof_css = '';
+        $busiprof_css .= $busiprof_current_options['busiprof_custom_css'];
+        $busiprof_css .= (string) wp_get_custom_css(get_stylesheet());
+        $busiprof_current_options['busiprof_custom_css'] = 'nomorenow';
+        update_option('busiprof_theme_options', $busiprof_current_options);
+        wp_update_custom_css_post($busiprof_css, array());
+    }
 }
+add_action('wp_loaded', 'busiprof_custom_css_compatibility');
+
 /**
  * Fix skip link focus in IE11.
  *

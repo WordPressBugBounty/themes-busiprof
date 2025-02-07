@@ -2,8 +2,8 @@
 
 Contributors: priyanshumittal
 Requires at least: 4.5
-Tested up to: 6.6
-Stable tag: 2.4.9
+Tested up to: 6.7
+Stable tag: 2.5
 Requires PHP: 5.4
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 License: GNU General Public License v2 or later
@@ -51,11 +51,14 @@ In WordPress 5.8, the default widget title is showing in the H2 tag if you want 
 
 == License ==
 
-Busiprof WordPress Theme, Copyright (C) 2013-2024, priyanshumittal
+Busiprof WordPress Theme, Copyright (C) 2013-2025, priyanshumittal
 Busiprof WordPress Theme is distributed under the terms of the GNU GPL
 
 
 == Changelog ==
+
+@version 2.5
+1. Fixed error notice issue.
 
 @version 2.4.9
 1. Updated the options page.
@@ -464,4 +467,4 @@ License: Under the terms of the GNU General Public License
 Source: https://wordpress.org/plugins/woocommerce/
 
 * Images on /images folder
-Copyright (C) 2013-2024, Webriti and available as [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
+Copyright (C) 2013-2025, Webriti and available as [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
