@@ -26,6 +26,11 @@ get_template_part('index', 'bannerstrip');
                 <div class="page-content">
                     <div class="page-content-new">
                     <?php the_post();
+                    if(has_post_thumbnail()): ?>
+                        <a href="<?php the_permalink(); ?>" class="post-thumbnail">
+                            <?php the_post_thumbnail(); ?>
+                        </a>
+                    <?php endif;
                     echo the_content(); ?>
                     </div>
                 <?php
