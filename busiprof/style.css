@@ -5,9 +5,9 @@
 * Author URI: https://www.webriti.com
 * Description: Busiprof WordPress Theme is a fully responsive and translation-ready theme that allows you to create stunning blogs and websites. The theme is well suited for companies, law firms,ecommerce, finance, agency, travel, photography, recipes, design, arts, personal and any other creative websites and blogs. The theme is developed using Bootstrap 3 that makes it mobile and tablet friendly. It has various options in the WordPress Customizer to change the look of the theme. The theme customizer can be used to add your own favicon, logo, feature slide, services, 2 testimonial slider, blog, callout and much more. In the premium version you can add unlimited slides. There are a number of in-built widgets and support for various popular plugins like WPML, the Polylang Translation WordPress Plugin, Woocommerce and Contact Form 7. 10 beautifully designed templates like About Us, Services, Blog Right Sidebar, Blog Fullwidth, Full Width Page, Contact Us and many useful sections for business using the Homepage template. Busiprof theme comes with various Locales.This theme is fully GDPR-compliant and doesn’t use any external Google Fonts. All fonts are locally hosted. Just navigate to Appearance / Customize to start customizing.
 * Tags: one-column, two-columns, full-width-template, threaded-comments, right-sidebar, custom-menu, sticky-post, translation-ready, featured-images, blog, theme-options, footer-widgets, e-commerce
-* Version: 2.5.1
+* Version: 2.5.2
 * Requires at least: 4.5
-* Tested up to: 6.8
+* Tested up to: 6.9
 * Requires PHP: 5.4
 * License: GNU General Public License v2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -700,7 +700,6 @@ a.rsswidget::before { display: none; }
 .site-content .entry-header .entry-title > a { color: #404b56; }
 .site-content .post .entry-header .entry-title > a:hover { color: #2a7bc1;  }
 .site-content .post p { margin: 0 0 20px; }
-.site-content .post p:last-child { margin: 0; }
 .site-content .post .post-thumbnail { margin: 0; display: block; }
 .site-content .post .post-thumbnail img {
 	background-color: #fff;
@@ -790,7 +789,7 @@ a.rsswidget::before { display: none; }
 .comments-area li{ list-style:none; }
 form.comment-form{ padding:0; }
 form.comment-form .comment-notes{ margin-bottom:20px; padding:0 15px; }
-form.comment-form .submit{ margin:0 15px; }
+form.comment-form .submit{ padding:0 15px; }
 /* Comment Form Css-------------- */
 
 .comment-form .form-group, .contact-form .form-group { margin-bottom: 0px; }
@@ -1248,7 +1247,7 @@ li.mini_cart_item  a::before{ display:none;}
     right: 100%;
     left: auto !important;
 }
-.navbar-toggle:focus,.dropdown-menu > .active > a:focus,.open a:focus,textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+.navbar-toggler:focus,.dropdown-menu > .active > a:focus,.open a:focus,textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
 	outline: -webkit-focus-ring-color auto 1px !important;
     outline-color: -webkit-focus-ring-color !important;
     outline-style: auto;
@@ -1259,7 +1258,7 @@ li.mini_cart_item  a::before{ display:none;}
 display: block;
     margin: 1px;
 }
-.custom-logo-link-url{display: inline-block;padding-top:15px;}
+.custom-logo-link-url{display: inline-block;padding: 24px 0px;}
 .custom-logo-link-url .site-title{ margin: 0 0 5px;}
 .custom-logo-link-url .site-title .navbar-brand{float: none;padding:0;}
 .blocks-gallery-item a{
@@ -1283,7 +1282,7 @@ display: block;
 margin-left: 3px;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 991px){
+@media only screen and (min-width: 200px) and (max-width: 767px){
 	.page-breadcrumb {
     text-align: left;
     padding: 17px 0;
@@ -1292,11 +1291,11 @@ margin-left: 3px;
 .wpcf7-form label {
 	width: 100%;
 }
-@media only screen and (min-width: 200px) and (max-width: 767px){
+/*@media only screen and (min-width: 200px) and (max-width: 767px){
 	.navbar-brand{
 		width:50%;
 	}
-}
+}*/
 @media only screen and (min-width: 200px) and (max-width: 767px){
 	.home-post-latest .post .post-thumbnail{
 		float:none;
@@ -1426,7 +1425,7 @@ list-style: none;
     margin: 0 0.125rem 0.625rem;
     background-color: #f2f2f2;
     border: 1px solid #e4e8ea;
-    font-size: 1.2rem !important;
+    font-size: 0.8rem !important;
     padding: 0.188rem 1.25rem;
 }   
 .wp-calendar-table #today{
@@ -1464,7 +1463,7 @@ list-style: none;
     border-style: hidden;
 }
 .footer-sidebar .wp-block-search .wp-block-search__input{
-background: #2a3a49;
+    background: #2a3a49;
     border: 0 solid #dcdfe1;
     border-radius: 6px;
     box-shadow: 0 0 3px #2a3a49 inset;
@@ -1552,3 +1551,11 @@ nav.rank-math-breadcrumb a:hover {  color: #337ab7; }
     text-align: left;
 }
 }
+.caret {display: inline-block;width: 0;height: 0;margin-left: 2px;vertical-align: middle;border-top: 4px dashed;border-top: 4px solid \9;
+    border-right: 4px solid transparent;border-left: 4px solid transparent;
+}
+@media (min-width: 1200px) {body .container {max-width: 1170px;}}
+/*@media (min-width: 768px){.navbar-header{display: flex;}}*/
+.open > .dropdown-menu {display: block;}
+/*@media (min-width: 768px) and (max-width: 991px) {.navbar > .container .navbar-brand,.custom-logo-link-url  {flex: 1;}}*/
+.navigation.pagination{display: block;}

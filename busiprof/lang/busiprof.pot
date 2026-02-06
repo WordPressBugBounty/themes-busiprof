@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Busiprof\n"
-"POT-Creation-Date: 2025-02-06 18:51+0530\n"
+"POT-Creation-Date: 2025-12-05 13:25+0530\n"
 "PO-Revision-Date: 2019-03-12 18:11+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -341,7 +341,7 @@ msgstr ""
 msgid "You can use WPML to make your website multilingual."
 msgstr ""
 
-#: admin/tab-pages/free_vs_pro.php:57
+#: admin/tab-pages/free_vs_pro.php:57 admin/tab-pages/free_vs_pro.php:113
 msgid "Support Forum"
 msgstr ""
 
@@ -388,10 +388,6 @@ msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:101
 msgid "Full-Width layout & Boxed layout"
-msgstr ""
-
-#: admin/tab-pages/free_vs_pro.php:113
-msgid "PRO Support Forum"
 msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:121
@@ -1733,10 +1729,6 @@ msgstr ""
 
 #: header.php:18
 msgid "Skip to content"
-msgstr ""
-
-#: header.php:60
-msgid "Toggle navigation"
 msgstr ""
 
 #: search.php:27

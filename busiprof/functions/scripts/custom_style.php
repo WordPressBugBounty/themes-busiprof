@@ -25,7 +25,7 @@ if($busiprof_enable_header_typography == true)
 				font-family:<?php echo esc_attr(get_theme_mod('tagline_title_fontfamily','Open Sans')); ?>;
 				line-height: <?php echo intval(get_theme_mod('tagline_line_height','25')).'px'; ?>;
 		}
-		body .navbar-default .navbar-nav > li > a {
+		body .navbar-default .navbar-nav > li > a,body .navbar6.navbar-default .navbar-nav > li > a {
 				font-size:<?php echo intval(get_theme_mod('menu_title_fontsize','14')).'px'; ?>;
 				font-family:<?php echo esc_attr(get_theme_mod('menu_title_fontfamily','Open Sans')); ?>;
 				line-height: <?php echo intval(get_theme_mod('menu_line_height','25')).'px'; ?>;

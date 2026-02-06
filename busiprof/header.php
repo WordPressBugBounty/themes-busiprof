@@ -17,7 +17,7 @@
         <div id="page" class="site">
             <a class="skip-link busiprof-screen-reader" href="#content"><?php esc_html_e('Skip to content', 'busiprof'); ?></a>
             <!-- Navbar -->	
-            <nav class="navbar navbar-default">
+            <nav class="navbar navbar-default navbar-expand-lg">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
@@ -56,12 +56,9 @@
                             <?php
                         }
                         ?>	
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <span class="sr-only"><?php esc_html_e('Toggle navigation', 'busiprof'); ?></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon"></span>
+                     </button>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -70,7 +67,7 @@
                         wp_nav_menu(array(
                             'theme_location' => 'primary',
                             'container' => 'nav-collapse collapse navbar-inverse-collapse',
-                            'menu_class' => 'nav navbar-nav navbar-right',
+                            'menu_class' => 'nav navbar-nav navbar-right ms-auto',
                             'fallback_cb' => 'busiprof_fallback_page_menu',
                             'walker' => new Busiprof_nav_walker())
                         );

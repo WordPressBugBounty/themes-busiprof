@@ -1,6 +1,7 @@
 .busiprof-nav-tabs {
     margin: 30px 0 0;
     border-bottom: 1px solid #dedede;
+    padding: 0;
 }
 .busiprof-nav-tabs:after {
     clear: both;
@@ -567,3 +568,4 @@ a.info-block:hover, a.info-block:active, a.info-block:focus{color:#333;}
 .busiprof-wrap .recommended_box img{
     width: 100%;
 } 
+#wpcontent{background-color: #fff;}

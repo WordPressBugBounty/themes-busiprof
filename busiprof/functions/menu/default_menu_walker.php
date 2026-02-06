@@ -46,7 +46,7 @@ function busiprof_fallback_page_menu( $args = array() ) {
 	if ( $menu )
 		$menu = '<ul class="'. esc_attr($args['menu_class']) .'">' . $menu . '</ul>';
 
-	$menu = '<div class="' . esc_attr($args['container_class']) . '">' . $menu . "</div>\n";
+	// $menu = '<div class="' . esc_attr($args['container_class']) . '">' . $menu . "</div>\n";
 	$menu = apply_filters( 'wp_page_menu', $menu, $args );
 	if ( $args['echo'] )
 		echo $menu;

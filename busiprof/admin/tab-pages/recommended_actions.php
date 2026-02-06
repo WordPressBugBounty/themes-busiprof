@@ -3,7 +3,7 @@ $busiprof_actions = $this->recommended_actions;
 $busiprof_actions_todo = get_option('busiprof_recommended_actions', false);
 ?>
 <div id="recommended_actions" class="busiprof-tab-pane panel-close">
-    <div class="action-list">
+    <div class="action-list row">
         <?php if ($busiprof_actions): foreach ($busiprof_actions as $key => $busiprof_actionValue): ?>
                 <div class="action col-md-6 col-sm-6 col-xs-12" id="<?php echo esc_attr($busiprof_actionValue['id']); ?>">
                     <div class="recommended_box ">

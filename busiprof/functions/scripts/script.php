@@ -12,7 +12,7 @@ if( !function_exists('busiporf_scripts'))
 		wp_enqueue_style('font-awesome-css', get_template_directory_uri() . '/css/font-awesome/css/all.min.css' );
 		// js
 		wp_enqueue_script( 'jquery' );
-		wp_enqueue_script( 'bootstrap-js' , get_template_directory_uri() . '/js/bootstrap.min.js' );
+		wp_enqueue_script( 'bootstrap-js' , get_template_directory_uri() . '/js/bootstrap.bundle.min.js' );
 		wp_enqueue_script( 'busiporf-custom-js' , get_template_directory_uri() . '/js/custom.js' );
 
 		if ( is_singular() ) wp_enqueue_script( "comment-reply" );
