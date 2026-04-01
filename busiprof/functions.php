@@ -413,3 +413,137 @@ function busiprof_enqueue_plugin_installer_script() {
 
     ));
 }
+
+/* ---------------------------------------------- /*
+ * Single Post Navigation
+/* ---------------------------------------------- */
+
+function busiprof_single_posts_nav(){
+    $next_post = get_next_post();
+    $prev_post = get_previous_post();
+  
+    if ( $next_post || $prev_post ) : ?>
+
+        <!-- Pagination -->       
+        <article class="bp-pagination-single pagina_desgn-1">
+            <?php if ( ! empty( $prev_post ) ) : ?>
+            <div class="bp-post-previous">
+                <div class="bp-post-content">
+                    <a class="bp_prvs_post" href="<?php echo esc_url(get_permalink( $prev_post )); ?>" title="<?php esc_attr_e('Previous post','busiprof'); ?>"><?php esc_html_e('Previous post','busiprof');?></a>
+                    <h4 class="bp-entry-title">
+                    <a class="bp-title" href="<?php echo esc_url(get_permalink( $prev_post )); ?>" title="<?php echo esc_attr(get_the_title( $prev_post )); ?>"><?php echo esc_html(get_the_title( $prev_post )); ?></a>
+                    </h4>
+                </div>
+            </div>
+            <?php endif; 
+            if ( ! empty( $next_post ) ) : ?>
+            <div class="bp-post-next">
+                 <div class="bp-post-content">
+                    <a class="bp_nxt_post" href="<?php echo esc_url(get_permalink( $next_post )); ?>" title="<?php esc_attr_e('Next post','busiprof'); ?>"><?php esc_html_e('Next post','busiprof');?></a>
+                    <h4 class="bp-entry-title">
+                        <a class="bp-title" href="<?php echo esc_url(get_permalink( $next_post )); ?>" title="<?php echo esc_attr(get_the_title( $next_post )); ?>"><?php echo esc_html(get_the_title( $next_post )); ?></a>
+                    </h4>
+                </div>
+            </div>
+            <?php endif; ?>
+        </article>
+      <!-- /Pagination -->       
+    <?php endif;
+}
+
+/* =============================================================
+    *                    Related Post
+  ================================================================ */
+
+function busiprof_single_post_related() {
+
+   busiprof_single_posts_nav(); 
+
+   $busiprof_current_options = wp_parse_args(  get_option( 'busiprof_theme_options', array() ), busiprof_theme_setup_data() ); 
+
+   $busiprof_releted_post_title = $busiprof_current_options['releted_post_title'] ;
+
+    if( $busiprof_current_options['releted_post_section_enabled']=='on' ) { 
+
+
+    // Get the current post's ID
+    $current_post_id = get_the_ID();
+    // Get the categories of the current post
+    $categories = get_the_category($current_post_id);
+    if ($categories!=null) {
+        $category_ids = array();
+        foreach ($categories as $category) {
+            $category_ids[] = $category->term_id;
+        }
+    }
+    $args = array(
+        'ignore_sticky_posts' => 1,
+        'post__not_in' => array($current_post_id), // Exclude the current post
+        'category__in' => $category_ids, // Include posts from the same categories
+        'posts_per_page' => 3,
+    );
+
+    $query_args = new WP_Query($args); 
+    if ($query_args->have_posts()) { ?>
+
+    <!-- Related post -->
+    <div class="bp-related-posts">
+        
+            <div class="bp-main-wrapper">
+                <h3 class="bp-main-title"><?php echo esc_html($busiprof_releted_post_title);?></h3>
+            </div>
+       
+        <div class="bp-related-post-wrapper">
+            <div class="row">
+                <?php while ($query_args->have_posts()) : $query_args->the_post(); ?>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="bp-post">
+                        <div class="bp-img-overlay <?php if(!has_post_thumbnail()){ echo 'bp-img-rmv';} ?> ">
+                            <?php if(has_post_thumbnail()):?>
+                                <figure class="bp-post-thumbnail">
+                                    <a href="<?php the_permalink();?>" title="<?php the_title();?>"><?php the_post_thumbnail('full',array('class'=>'img-fluid'));?></a>
+                                </figure>
+                            <?php endif; ?>  
+                            <div class="bp-entry-meta">
+                                <span class="bp-cat-links">
+                                 <?php the_category(' '); ?>
+                                </span>
+                            </div>
+                        </div>                   
+                        <div class="bp-post-content">
+                            <div class="bp-post-wrapper">
+                                <header class="bp-entry-header">
+                                    <div class="bp-entry-meta">
+                                        <span class="bp-date"><a href="<?php echo esc_url( home_url('/') ); ?><?php echo esc_html(date( 'Y/m' , strtotime( get_the_date() )) ); ?>"><time datetime=""><?php the_time('M j,Y');?></time></a>
+                                        </span>
+                                    </div>
+                                    <h3 class="bp-entry-title">
+                                        <a class="bp-title" href="<?php the_permalink(); ?>">
+                                            <?php the_title(); ?>
+                                        </a>
+                                    </h3>
+                                </header>
+                                <div class="bp-entry-content">
+                                    <div class="bp-footer-meta">
+                                        <a href="<?php the_permalink(); ?>" class="bp-more-link">
+                                            <?php esc_html_e('Read More', 'busiprof'); ?>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <?php 
+                endwhile;
+                wp_reset_postdata(); ?>
+            </div>
+        </div>
+    </div>
+<?php
+
+    }
+
+   }
+}
+add_action('busiprof_single_post_hook','busiprof_single_post_related');

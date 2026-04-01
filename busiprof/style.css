@@ -5,7 +5,7 @@
 * Author URI: https://www.webriti.com
 * Description: Busiprof WordPress Theme is a fully responsive and translation-ready theme that allows you to create stunning blogs and websites. The theme is well suited for companies, law firms,ecommerce, finance, agency, travel, photography, recipes, design, arts, personal and any other creative websites and blogs. The theme is developed using Bootstrap 3 that makes it mobile and tablet friendly. It has various options in the WordPress Customizer to change the look of the theme. The theme customizer can be used to add your own favicon, logo, feature slide, services, 2 testimonial slider, blog, callout and much more. In the premium version you can add unlimited slides. There are a number of in-built widgets and support for various popular plugins like WPML, the Polylang Translation WordPress Plugin, Woocommerce and Contact Form 7. 10 beautifully designed templates like About Us, Services, Blog Right Sidebar, Blog Fullwidth, Full Width Page, Contact Us and many useful sections for business using the Homepage template. Busiprof theme comes with various Locales.This theme is fully GDPR-compliant and doesn’t use any external Google Fonts. All fonts are locally hosted. Just navigate to Appearance / Customize to start customizing.
 * Tags: one-column, two-columns, full-width-template, threaded-comments, right-sidebar, custom-menu, sticky-post, translation-ready, featured-images, blog, theme-options, footer-widgets, e-commerce
-* Version: 2.5.2
+* Version: 2.5.3
 * Requires at least: 4.5
 * Tested up to: 6.9
 * Requires PHP: 5.4
@@ -1559,3 +1559,151 @@ nav.rank-math-breadcrumb a:hover {  color: #337ab7; }
 .open > .dropdown-menu {display: block;}
 /*@media (min-width: 768px) and (max-width: 991px) {.navbar > .container .navbar-brand,.custom-logo-link-url  {flex: 1;}}*/
 .navigation.pagination{display: block;}
+
+/*--------------------------------------------------------------
+ Pagination Css
+--------------------------------------------------------------*/
+.bp-pagination-single.pagina_desgn-1 {box-shadow: unset;margin: 0;transform: unset;overflow: hidden;
+  text-align: unset;display: flex;flex-wrap: wrap;justify-content: space-between;margin-bottom: 20px;
+  background-color: #fff;padding: 0 20px;position: relative;}
+.bp-pagination-single .bp-post-previous, .bp-pagination-single .bp-post-next {display: flex;flex-basis: 100%;
+    max-width: 100%;margin-bottom: 0px;padding: 20px 0;}
+@media (min-width: 768px) {.bp-pagination-single:has(.bp-post-next) .bp-post-previous, .bp-pagination-single:has(.bp-post-previous) .bp-post-next {
+    flex-basis: 50%;max-width: 50%;}}   
+.bp-pagination-single.pagina_desgn-1 .bp-post-content {padding: 0.25rem 1.25rem;}
+.bp-pagination-single.pagina_desgn-1 .bp-post-previous .bp-post-content {padding-left: 0;}
+.bp-pagination-single.pagina_desgn-1 .bp-post-next .bp-post-content {padding-right: 0;}
+.bp-pagination-single.pagina_desgn-1 .bp-post-next {flex-direction: row-reverse;}
+.bp-pagination-single .bp-entry-title {font-weight: 600;font-size: 1.125rem;}
+.bp-pagination-single .bp-entry-title a{color:#404B56;}
+.bp_nxt_post,.bp_prvs_post{font-size:0.813rem;font-weight:700;color: #737F85;margin-bottom: 0.5rem;
+display: block;}
+.bp_nxt_post:hover,.bp_prvs_post:hover,.bp-pagination-single .bp-entry-title a:hover{color:#5CA2DF;}
+.bp-pagination-single a{text-decoration: none;}
+/*--------------------------------------------------------------
+ Related Post Css
+--------------------------------------------------------------*/
+.bp-related-posts{position: relative;}
+.bp-related-posts a{text-decoration: none;}
+.bp-related-posts .bp-main-wrapper {margin-bottom: 15px;}
+.bp-related-posts .bp-main-wrapper .bp-main-title {
+    padding: 0px 8px;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #212529;
+}
+.bp-related-posts .bp-related-post-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+}
+.bp-related-posts .bp-img-overlay{position: relative;}
+.bp-related-posts .bp-img-overlay .bp-entry-meta {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.bp-related-posts .bp-post-thumbnail {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+.bp-related-posts .bp-post-thumbnail img {
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+}
+.bp-related-posts .bp-entry-meta span{margin-right: 13px;}
+.bp-related-posts .bp-img-overlay .bp-entry-meta .bp-cat-links a {
+    font-size: 0.75rem;
+    color: #ffffff;
+    background: #5CA2DF;
+    padding: 4px 5px 4px;
+    font-weight: 600;
+    -webkit-text-fill-color: unset;
+}
+.bp-related-posts .bp-related-post-wrapper .bp-post-wrapper {
+    padding: 15px 15px 15px 0px;
+    background-color: #fff;
+}
+.spnc-single-post .spnc-blog-wrapper .spnc-post .spnc-entry-meta span {
+    margin-right: 25px;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+.bp-related-posts .bp-related-post-wrapper .bp-post-content .bp-entry-meta span a {
+    word-break: break-all;
+    font-size: 13px;
+    font-weight: 400;
+    color: #737F85;
+    margin-bottom: 10px;
+  }
+ .bp-related-posts .bp-related-post-wrapper .bp-post-content .bp-entry-title{ 
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .bp-related-posts .bp-related-post-wrapper .bp-post-content .bp-entry-title a{color:#404B56 ;} 
+  .bp-related-posts .bp-related-post-wrapper .bp-post{position: relative;margin-bottom: 20px;}
+  .bp-related-posts .bp-footer-meta .bp-more-link {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 6px 15px;
+    background-color: #5CA2DF;
+}
+.bp-related-posts .bp-footer-meta .bp-more-link a:hover {opacity: 0.9;}
+.bp-related-posts .bp-footer-meta {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.bp-entry-header .bp-entry-meta{margin-bottom: 8px;}
+.bp-related-posts .bp-post-content .bp-entry-meta span a:hover,.bp-related-posts .bp-post-content .bp-entry-title a:hover{color:#5CA2DF;}
+
+.bp-related-posts .bp-img-overlay.bp-img-rmv .bp-entry-meta {
+top: 10px;
+left: 0;
+position: relative;
+}
+.bp-related-post-wrapper .row{margin:0;}
+@media (max-width:767px){
+	.bp-pagination-single.pagina_desgn-1 .bp-post-next {
+    flex-direction: unset;
+		padding:0;
+}
+	.bp-pagination-single.pagina_desgn-1 .bp-post-next .bp-post-content{padding:0;}
+	.bp-pagination-single .bp-post-previous, .bp-pagination-single .bp-post-next{padding:0;}
+}
+@media (min-width:768px){
+.bp-pagination-single.pagina_desgn-1 .bp-post-next .bp-post-content {text-align: right;}
+}
+.home-post-latest .post, .post.format-standard{position:relative;}
+.home-post-latest .bp-entry-meta {position: absolute;top: 10px;left: 10px;}
+.home-post-latest .bp-entry-meta a, .post.format-standard  .bp-entry-meta a{
+	font-size: 0.75rem;
+	color: #ffffff;
+	background: #5CA2DF;
+	padding: 2px 5px 3px;
+	font-weight: 600;
+	-webkit-text-fill-color: unset;
+	text-decoration: none;
+}
+.home-post-latest .bp-entry-meta.img-remove ,.post.format-standard .bp-entry-meta.img-remove  {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 10px;
+}
+
+.post.format-standard  .bp-entry-meta{ 
+ 	position: absolute;
+ 	top:  85px; 
+ 	left: 45px;
+} 

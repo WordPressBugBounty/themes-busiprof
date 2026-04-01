@@ -40,6 +40,11 @@
 			<?php	
 			}	
 		}?>
+		<div class="bp-entry-meta <?php if(!has_post_thumbnail()){ echo 'img-remove';} ?>">
+                <span class="bp-cat-links">
+                 <?php the_category(' '); ?>
+                </span>
+        </div>
 	<div class="entry-content">
 		<?php the_content( esc_html__('Read More','busiprof') ); ?>
 	</div>

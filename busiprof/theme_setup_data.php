@@ -154,6 +154,8 @@ function busiprof_theme_setup_data()
 			'recent_blog_title' =>'Lorem Ipsum',
 			'recent_blog_description' =>'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
 			'home_recentblog_meta_enable' => 'on',
+			'releted_post_section_enabled' => 'on',
+			'releted_post_title' => 'Releted Posts',
 			
 			//contact page settings
 			'contact_address_1'=>__('378 Kingston Court','busiprof'),

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Busiprof\n"
-"POT-Creation-Date: 2025-12-05 13:25+0530\n"
+"POT-Creation-Date: 2026-03-25 14:03+0530\n"
 "PO-Revision-Date: 2019-03-12 18:11+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -10,14 +10,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.8\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -639,7 +638,7 @@ msgid "Meet our clients"
 msgstr ""
 
 #: child_theme_compatible.php:57
-#: functions/customizer/custo_general_settings.php:78 theme_setup_data.php:65
+#: functions/customizer/custo_general_settings.php:114 theme_setup_data.php:65
 msgid ""
 "<p><a href=\"https://wordpress.org\">Proudly powered by WordPress</a> | Theme: "
 "<a href=\"https://webriti.com\" rel=\"nofollow\">BusiProf</a> by Webriti</p>"
@@ -650,62 +649,62 @@ msgstr ""
 msgid "More Services"
 msgstr ""
 
-#: child_theme_compatible.php:150 theme_setup_data.php:159
+#: child_theme_compatible.php:150 theme_setup_data.php:161
 msgid "378 Kingston Court"
 msgstr ""
 
-#: child_theme_compatible.php:151 theme_setup_data.php:160
+#: child_theme_compatible.php:151 theme_setup_data.php:162
 msgid "West New York, NJ 07093"
 msgstr ""
 
-#: child_theme_compatible.php:152 theme_setup_data.php:161
+#: child_theme_compatible.php:152 theme_setup_data.php:163
 msgid "973-960-4715"
 msgstr ""
 
-#: child_theme_compatible.php:153 theme_setup_data.php:162
+#: child_theme_compatible.php:153 theme_setup_data.php:164
 msgid "0276-758645"
 msgstr ""
 
-#: child_theme_compatible.php:154 theme_setup_data.php:163
+#: child_theme_compatible.php:154 theme_setup_data.php:165
 msgid "info@busiprof.com"
 msgstr ""
 
-#: child_theme_compatible.php:155 theme_setup_data.php:164
+#: child_theme_compatible.php:155 theme_setup_data.php:166
 msgid "https://www.busiprof.com"
 msgstr ""
 
 #: child_theme_compatible.php:178 functions/customizer/customizer-archive.php:15
-#: functions/customizer/customizer-archive.php:24 theme_setup_data.php:187
+#: functions/customizer/customizer-archive.php:24 theme_setup_data.php:189
 msgid "Archive"
 msgstr ""
 
 #: child_theme_compatible.php:179 functions/customizer/customizer-archive.php:34
-#: functions/customizer/customizer-archive.php:41 theme_setup_data.php:188
+#: functions/customizer/customizer-archive.php:41 theme_setup_data.php:190
 msgid "Category"
 msgstr ""
 
 #: child_theme_compatible.php:180 functions/customizer/customizer-archive.php:49
-#: theme_setup_data.php:189
+#: theme_setup_data.php:191
 msgid "All posts by"
 msgstr ""
 
 #: child_theme_compatible.php:181 functions/customizer/customizer-archive.php:64
-#: functions/customizer/customizer-archive.php:71 theme_setup_data.php:190
+#: functions/customizer/customizer-archive.php:71 theme_setup_data.php:192
 msgid "Tag"
 msgstr ""
 
 #: child_theme_compatible.php:182 functions/breadcrumbs/breadcrumbs.php:61
-#: functions/customizer/customizer-archive.php:80 theme_setup_data.php:191
+#: functions/customizer/customizer-archive.php:80 theme_setup_data.php:193
 msgid "Search results for"
 msgstr ""
 
 #: child_theme_compatible.php:183 functions/customizer/customizer-archive.php:95
-#: functions/customizer/customizer-archive.php:102 theme_setup_data.php:192
+#: functions/customizer/customizer-archive.php:102 theme_setup_data.php:194
 msgid "404"
 msgstr ""
 
 #: child_theme_compatible.php:184 functions/customizer/customizer-archive.php:111
-#: functions/customizer/customizer-archive.php:118 theme_setup_data.php:193
+#: functions/customizer/customizer-archive.php:118 theme_setup_data.php:195
 msgid "Shop"
 msgstr ""
 
@@ -762,7 +761,7 @@ msgstr ""
 msgid "Send Message"
 msgstr ""
 
-#: comments.php:49 index-blog.php:44
+#: comments.php:49 index-blog.php:49
 msgid "Leave a Reply"
 msgstr ""
 
@@ -770,7 +769,7 @@ msgstr ""
 msgid "Leave a comment"
 msgstr ""
 
-#: content.php:44 index-blog.php:56
+#: content.php:49 functions.php:529 index-blog.php:61
 msgid "Read More"
 msgstr ""
 
@@ -789,6 +788,14 @@ msgstr ""
 
 #: functions.php:287
 msgid "This plugin will unlock enhanced features to build a beautiful website."
+msgstr ""
+
+#: functions.php:432
+msgid "Previous post"
+msgstr ""
+
+#: functions.php:442
+msgid "Next post"
 msgstr ""
 
 #. Template Name of the plugin/theme
@@ -1297,22 +1304,40 @@ msgid "Enable Front Page"
 msgstr ""
 
 #: functions/customizer/custo_general_settings.php:64
+#: functions/customizer/custo_general_settings.php:84
 #: functions/customizer/custo_sections_settings.php:27
 #: functions/customizer/custo_sections_settings.php:39
 msgid "ON"
 msgstr ""
 
 #: functions/customizer/custo_general_settings.php:65
+#: functions/customizer/custo_general_settings.php:85
 #: functions/customizer/custo_sections_settings.php:28
 #: functions/customizer/custo_sections_settings.php:40
 msgid "OFF"
 msgstr ""
 
 #: functions/customizer/custo_general_settings.php:72
+msgid "Single Post"
+msgstr ""
+
+#: functions/customizer/custo_general_settings.php:80
+msgid "Enable Releted Post"
+msgstr ""
+
+#: functions/customizer/custo_general_settings.php:93
+msgid "Releted Posts"
+msgstr ""
+
+#: functions/customizer/custo_general_settings.php:101
+msgid "Releted Post Title"
+msgstr ""
+
+#: functions/customizer/custo_general_settings.php:108
 msgid "Footer Copyright Settings"
 msgstr ""
 
-#: functions/customizer/custo_general_settings.php:81
+#: functions/customizer/custo_general_settings.php:117
 msgid "Copyright Text"
 msgstr ""
 

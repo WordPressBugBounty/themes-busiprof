@@ -23,6 +23,7 @@ get_template_part('index', 'bannerstrip');
 						get_template_part( 'content','' );
 						
 					endwhile; endif;
+					do_action('busiprof_single_post_hook');
 					?>
 					<!--Comments-->
 					<?php comments_template( '', true );?>

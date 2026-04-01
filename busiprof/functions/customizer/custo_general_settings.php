@@ -67,11 +67,47 @@ function busiprof_general_settings( $wp_customize ){
 		));
 	
 
+	/* Front Page section */
+	$wp_customize->add_section( 'singe_post_section' , array(
+		'title'      => esc_html__('Single Post', 'busiprof'),
+		'panel'  => 'general_settings',
+		'priority'   => 3,
+   	) );
+		
+	// Enable Recent Blog
+	$wp_customize->add_setting( 'busiprof_theme_options[releted_post_section_enabled]' , array( 'default' => 'on' , 'type' => 'option', 'sanitize_callback' => 'busiprof_sanitize_radio' ) );
+	$wp_customize->add_control(	'busiprof_theme_options[releted_post_section_enabled]' , array(
+			'label'    => esc_html__( 'Enable Releted Post', 'busiprof' ),
+			'section'  => 'singe_post_section',
+			'type'     => 'radio',
+			'choices' => array(
+				'on'=>esc_html__('ON', 'busiprof'),
+				'off'=>esc_html__('OFF', 'busiprof')
+			)
+	));
+		
+			
+	$wp_customize->add_setting(
+    'busiprof_theme_options[releted_post_title]',
+    array(
+        'default' => esc_html__('Releted Posts','busiprof'),
+		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'busiprof_template_page_sanitize_text',
+		'type'	=> 'option',
+		)
+	);	
+
+	$wp_customize->add_control( 'busiprof_theme_options[releted_post_title]',array(
+    'label'   => esc_html__('Releted Post Title','busiprof'),
+    'section' => 'singe_post_section',
+	 'type' => 'text',
+	));
+
 	/* footer section */
 	$wp_customize->add_section( 'footer_copy_section' , array(
 		'title'      => esc_html__('Footer Copyright Settings', 'busiprof'),
 		'panel'  => 'general_settings',
-		'priority'   => 3,
+		'priority'   => 4,
    	) );
 	
 		// copyright text

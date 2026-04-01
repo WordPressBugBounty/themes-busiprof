@@ -3,7 +3,7 @@
 Contributors: priyanshumittal
 Requires at least: 4.5
 Tested up to: 6.9
-Stable tag: 2.5.2
+Stable tag: 2.5.3
 Requires PHP: 5.4
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 License: GNU General Public License v2 or later
@@ -56,6 +56,10 @@ Busiprof WordPress Theme is distributed under the terms of the GNU GPL
 
 
 == Changelog ==
+
+@Version 2.5.3
+1. Added Post navigation and releted post section for single post.
+2. Added categories for home page blog section, blog page and single post.
 
 @Version 2.5.2
 1. Updated bootstrap 5.3.6.
@@ -473,4 +477,4 @@ License: Under the terms of the GNU General Public License
 Source: https://wordpress.org/plugins/woocommerce/
 
 * Images on /images folder
-Copyright (C) 2013-2025, Webriti and available as [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
+Copyright (C) 2013-2026, Webriti and available as [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)

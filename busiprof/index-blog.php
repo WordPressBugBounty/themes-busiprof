@@ -37,6 +37,11 @@ if( $busiprof_current_options['home_recentblog_section_enabled']=='on' ) { ?>
 							<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('',$busiprof_defalt_arg);?></a>
 							<?php } ?>
 						</figure> 
+						<div class="bp-entry-meta <?php if(!has_post_thumbnail()){ echo 'img-remove';} ?>">
+                                <span class="bp-cat-links">
+                                 <?php the_category(' '); ?>
+                                </span>
+                        </div>
 						<div class="media-body">
 							<?php if( $busiprof_current_options['home_recentblog_meta_enable']=='on' ) { ?>
 							<div class="entry-meta">
