@@ -1,0 +1,1456 @@
+# <!=Copyright (C) 2017 Webriti
+# This file is distributed under the GNU General Public License v2.0.=!>
+# Translators:
+# FX Bénard <fxb@wp-translations.org>, 2017
+# Thom <thom.pp9@gmail.com>, 2017
+# Patricia BT <patricia@torre.me>, 2017
+# Ali Mirzaei <alimir71@yahoo.com>, 2017
+# Alexander Ustimenko <ustimenko.alexander@gmail.com>, 2017
+# Roel Dekker <rodekker@gmail.com>, 2017
+# ThemeBoy <transifex@themeboy.com>, 2017
+# Edwin Mosterdijk <info@mbi-sliedrecht.nl>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: BusiProf Pro 1.8.4\n"
+"Report-Msgid-Bugs-To: https://wp-translations.pro/\n"
+"POT-Creation-Date: 2017-11-09 14:27:53+00:00\n"
+"PO-Revision-Date: 2017-12-08 12:04+0530\n"
+"Last-Translator: Edwin Mosterdijk <info@mbi-sliedrecht.nl>, 2017\n"
+"Language-Team: Dutch (Netherlands) (https://www.transifex.com/wp-"
+"translations/teams/64435/nl_NL/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:14 functions/breadcrumbs/breadcrumbs.php:103
+msgid "Error 404"
+msgstr "Fout 404 "
+
+#: 404.php:15
+msgid "Oops! Page not found!"
+msgstr "Oeps! Pagina niet gevonden!"
+
+#: 404.php:16
+msgid "We are sorry, but the page you are looking for does not exist."
+msgstr "Het spijt ons, maar de pagina die je zoekt bestaat niet."
+
+#: 404.php:17
+msgid "Go Back"
+msgstr "Ga terug"
+
+#: aboutus.php:92 aboutus.php:124
+msgid "(DEVELOPER)"
+msgstr "(ONTWIKKELAAR)"
+
+#: aboutus.php:93 index-team.php:84
+msgid ""
+"Here you can add a short bio about the owner, or the staff, of your "
+"establishment. Here you can add a short bio about the owner, or the staff, "
+"of your establishment. Neque porro quisquam est, qui dolorem ipsum am "
+"quaerat voluptatem."
+msgstr ""
+"Hier kun je een korte biografie van de eigenaar, staf of je vestiging "
+"toevoegen. Hier kun je een korte biografie van de eigenaar, staf of je "
+"vestiging toevoegen. Neque porro quisquam est, qui dolorem ipsum am quaerat "
+"voluptatem."
+
+#: aboutus.php:106 aboutus.php:140
+msgid "(DESIGNER)"
+msgstr "(ONTWERPER)"
+
+#: archive.php:17
+msgid "Daily Archive "
+msgstr "Dagelijks archief"
+
+#: archive.php:21
+msgid "Monthly Archive "
+msgstr "Maandelijks archief"
+
+#: archive.php:25
+msgid "Yearly Archive "
+msgstr "Jaarlijks archief"
+
+#: archive.php:29
+msgid "Blog Archive "
+msgstr "Blog archief"
+
+#: archive.php:69 author.php:51 blog-fullwidth.php:33 blog-left-sidebar.php:37
+#: blog-right-sidebar.php:33 category.php:50
+#: functions/pagination/webriti_pagination.php:8 index.php:26 search.php:35
+#: tag.php:50 taxonomy-project_categories.php:94
+msgid "Previous"
+msgstr "Vorige"
+
+#: archive.php:70 author.php:52 blog-fullwidth.php:34 blog-left-sidebar.php:38
+#: blog-right-sidebar.php:34 category.php:51
+#: functions/pagination/webriti_pagination.php:13 index.php:27 search.php:36
+#: tag.php:51 taxonomy-project_categories.php:95
+msgid "Next"
+msgstr "Volgende"
+
+#: category.php:14
+msgid "Category Archive"
+msgstr "Categorie archief"
+
+#: comments.php:11
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Dit bericht is beveiligd met een wachtwoord. Geef het wachtwoord om reacties "
+"te bekijken."
+
+#: comments.php:15 functions/widgets/busiprof-latest-widget.php:38
+#: functions/widgets/busiprof-latest-widget.php:114
+#: functions/widgets/busiprof-latest-widget.php:191
+msgid "Comment"
+msgstr "Reactie"
+
+#: comments.php:18 comments.php:28
+msgid "Comment navigation"
+msgstr "Reactienavigatie"
+
+#: comments.php:19 comments.php:29
+msgid "&larr; Older Comments"
+msgstr "&larr; Oudere reacties"
+
+#: comments.php:20 comments.php:30
+msgid "Newer Comments &rarr;"
+msgstr "Nieuwere reacties &rarr;"
+
+#: comments.php:38
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment"
+msgstr "Je moet <a href=\"%s\">ingelogd</a> zijn om een reactie te plaatsen"
+
+#: comments.php:44 functions/widgets/busiprof-widget-contact.php:37
+#: functions/widgets/busiprof-widget-contact.php:38
+msgid "Name"
+msgstr "Naam"
+
+#: comments.php:45 contact.php:60
+#: functions/customizer/custo_template_settings.php:198
+#: functions/widgets/busiprof-widget-contact.php:39
+#: functions/widgets/busiprof-widget-contact.php:40
+msgid "Email"
+msgstr "E-mail"
+
+#: comments.php:53 functions/widgets/busiprof-widget-contact.php:41
+#: functions/widgets/busiprof-widget-contact.php:42
+msgid "Message"
+msgstr "Bericht"
+
+#: comments.php:54
+msgid "Logged in as "
+msgstr "Ingelogd als"
+
+#: comments.php:54
+msgid "Logout of this account"
+msgstr "Uitloggen van dit account"
+
+#: comments.php:54
+msgid "Logout"
+msgstr "Uitloggen"
+
+#: comments.php:56 functions/widgets/busiprof-widget-contact.php:43
+msgid "Send Message"
+msgstr "Verzend bericht"
+
+#: comments.php:58 content.php:32 index-blog.php:42
+msgid "Leave a Reply"
+msgstr "Geef een reactie"
+
+#: contact.php:52 functions/customizer/custo_template_settings.php:180
+msgid "Phone"
+msgstr "Telefoon"
+
+#: contact.php:57 functions/customizer/custo_template_settings.php:189
+msgid "Fax"
+msgstr "Fax"
+
+#: contact.php:65 functions/customizer/custo_template_settings.php:207
+msgid "Website"
+msgstr "Website"
+
+#: content.php:45 index-blog.php:53 index-slider-two.php:54
+#: index-slider-two.php:64 index-slider-two.php:74 index-slider.php:95
+#: index-slider.php:105 index-slider.php:115
+msgid "Read More"
+msgstr "Meer lezen"
+
+#: footer.php:29
+msgid "Facebook"
+msgstr "Facebook"
+
+#: footer.php:30
+msgid "Twitter"
+msgstr "Twitter"
+
+#: footer.php:31
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: footer.php:32
+msgid "GooglePlus"
+msgstr "GooglePlus"
+
+#: footer.php:33
+msgid "Skype"
+msgstr "Skype"
+
+#. Template Name of the plugin/theme
+msgid "Home"
+msgstr "Home"
+
+#: functions/breadcrumbs/breadcrumbs.php:25
+msgid "Archive by category"
+msgstr "Archief op categorie"
+
+#: functions/breadcrumbs/breadcrumbs.php:28
+msgid "Search results for"
+msgstr "Zoekresultaten voor"
+
+#: functions/breadcrumbs/breadcrumbs.php:95
+msgid "Posts tagged"
+msgstr "Berichten getagd"
+
+#: functions/breadcrumbs/breadcrumbs.php:100
+msgid "Articles posted by"
+msgstr "Artikelen geplaatst door"
+
+#: functions/breadcrumbs/breadcrumbs.php:108
+msgid "Page"
+msgstr "Pagina"
+
+#: functions/commentbox/comment-function.php:30
+msgid "Reply"
+msgstr "Beantwoorden"
+
+#: functions/commentbox/comment-function.php:41
+msgid "%s"
+msgstr "%s"
+
+#: functions/commentbox/comment-function.php:45
+msgid "Your comment is awaiting moderation."
+msgstr "Je reactie is in afwachting van moderatie."
+
+#: functions/customizer/custo_general_settings.php:8
+msgid "General settings"
+msgstr "Algemene instellingen"
+
+#: functions/customizer/custo_general_settings.php:13
+msgid "Front page"
+msgstr "Startpagina"
+
+#: functions/customizer/custo_general_settings.php:31
+msgid "Enable front page"
+msgstr "Voorpagina inschakelen"
+
+#: functions/customizer/custo_general_settings.php:42
+msgid "Header logo settings"
+msgstr "Logo header-instellingen"
+
+#: functions/customizer/custo_general_settings.php:50
+msgid "Upload logo"
+msgstr "Logo uploaden"
+
+#: functions/customizer/custo_general_settings.php:59
+msgid "Enter Logo Width"
+msgstr "Vul breedte logo in"
+
+#: functions/customizer/custo_general_settings.php:68
+msgid "Enter Logo Height"
+msgstr "Vul hoogte logo in"
+
+#: functions/customizer/custo_general_settings.php:81
+msgid "Enable logo text"
+msgstr "Tekstlogo inschakelen"
+
+#: functions/customizer/custo_general_settings.php:88
+#: functions/customizer/custo_general_settings.php:97
+msgid "Custom CSS"
+msgstr "Aangepaste CSS"
+
+#: functions/customizer/custo_general_settings.php:104
+msgid "Footer copyright settings"
+msgstr "Copyright footer-instellingen"
+
+#: functions/customizer/custo_general_settings.php:110 theme_setup_data.php:63
+msgid "©2017 All Rights Reserved - Webriti. - Designed and Developed by"
+msgstr ""
+"©2017 Alle rechten voorbehouden - Webriti. - Ontworpen en ontwikkeld door"
+
+#: functions/customizer/custo_general_settings.php:113
+msgid "Copyright text"
+msgstr "Copyright tekst"
+
+#: functions/customizer/custo_general_settings.php:120
+#: functions/customizer-repeater/class/customizer-repeater-control.php:612
+msgid "Social icons"
+msgstr "Social iconen"
+
+#: functions/customizer/custo_general_settings.php:128
+msgid "Enable footer's social icons"
+msgstr "Sociale iconen footer inschakelen"
+
+#: functions/customizer/custo_general_settings.php:141
+#: functions/meta-box/post-meta.php:60 functions/meta-box/post-meta.php:61
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: functions/customizer/custo_general_settings.php:150
+#: functions/meta-box/post-meta.php:62 functions/meta-box/post-meta.php:63
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: functions/customizer/custo_general_settings.php:159
+#: functions/meta-box/post-meta.php:64 functions/meta-box/post-meta.php:65
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+#: functions/customizer/custo_general_settings.php:169
+msgid "GooglePlus URL"
+msgstr "GooglePlus URL"
+
+#: functions/customizer/custo_general_settings.php:179
+msgid "Skype URL"
+msgstr "Skype URL"
+
+#: functions/customizer/custo_layout_manager_settings.php:10
+msgid "Theme Layout Manager"
+msgstr "Thema lay-out beheerder"
+
+#: functions/customizer/custo_layout_manager_settings.php:24
+msgid "Section 1"
+msgstr "Sectie 1"
+
+#: functions/customizer/custo_layout_manager_settings.php:32
+#: functions/customizer/custo_layout_manager_settings.php:68
+#: functions/customizer/custo_layout_manager_settings.php:104
+#: functions/customizer/custo_layout_manager_settings.php:139
+#: functions/customizer/custo_layout_manager_settings.php:175
+#: functions/customizer/custo_layout_manager_settings.php:209
+#: functions/customizer/custo_layout_manager_settings.php:245
+msgid "Slider"
+msgstr "Slider"
+
+#: functions/customizer/custo_layout_manager_settings.php:34
+#: functions/customizer/custo_layout_manager_settings.php:70
+#: functions/customizer/custo_layout_manager_settings.php:106
+#: functions/customizer/custo_layout_manager_settings.php:141
+#: functions/customizer/custo_layout_manager_settings.php:177
+#: functions/customizer/custo_layout_manager_settings.php:211
+#: functions/customizer/custo_layout_manager_settings.php:247
+msgid "Service section"
+msgstr "Dienst-sectie"
+
+#: functions/customizer/custo_layout_manager_settings.php:36
+#: functions/customizer/custo_layout_manager_settings.php:72
+#: functions/customizer/custo_layout_manager_settings.php:108
+#: functions/customizer/custo_layout_manager_settings.php:143
+#: functions/customizer/custo_layout_manager_settings.php:179
+#: functions/customizer/custo_layout_manager_settings.php:213
+#: functions/customizer/custo_layout_manager_settings.php:249
+msgid "Project section"
+msgstr "Project-sectie"
+
+#: functions/customizer/custo_layout_manager_settings.php:38
+#: functions/customizer/custo_layout_manager_settings.php:74
+#: functions/customizer/custo_layout_manager_settings.php:110
+#: functions/customizer/custo_layout_manager_settings.php:145
+#: functions/customizer/custo_layout_manager_settings.php:181
+#: functions/customizer/custo_layout_manager_settings.php:215
+#: functions/customizer/custo_layout_manager_settings.php:251
+msgid "Blog section"
+msgstr "Blog-sectie"
+
+#: functions/customizer/custo_layout_manager_settings.php:40
+#: functions/customizer/custo_layout_manager_settings.php:76
+#: functions/customizer/custo_layout_manager_settings.php:112
+#: functions/customizer/custo_layout_manager_settings.php:147
+#: functions/customizer/custo_layout_manager_settings.php:183
+#: functions/customizer/custo_layout_manager_settings.php:217
+#: functions/customizer/custo_layout_manager_settings.php:253
+msgid "Team section"
+msgstr "Team-sectie"
+
+#: functions/customizer/custo_layout_manager_settings.php:42
+#: functions/customizer/custo_layout_manager_settings.php:78
+#: functions/customizer/custo_layout_manager_settings.php:114
+#: functions/customizer/custo_layout_manager_settings.php:149
+#: functions/customizer/custo_layout_manager_settings.php:185
+#: functions/customizer/custo_layout_manager_settings.php:219
+#: functions/customizer/custo_layout_manager_settings.php:255
+msgid "Testimonials section"
+msgstr "Recensies-sectie"
+
+#: functions/customizer/custo_layout_manager_settings.php:44
+#: functions/customizer/custo_layout_manager_settings.php:80
+#: functions/customizer/custo_layout_manager_settings.php:116
+#: functions/customizer/custo_layout_manager_settings.php:151
+#: functions/customizer/custo_layout_manager_settings.php:187
+#: functions/customizer/custo_layout_manager_settings.php:221
+#: functions/customizer/custo_layout_manager_settings.php:257
+msgid "Client slider"
+msgstr "Klant slider"
+
+#: functions/customizer/custo_layout_manager_settings.php:60
+msgid "Section 2"
+msgstr "Sectie 2"
+
+#: functions/customizer/custo_layout_manager_settings.php:96
+msgid "Section 3"
+msgstr "Sectie 3"
+
+#: functions/customizer/custo_layout_manager_settings.php:131
+msgid "Section 4"
+msgstr "Sectie 4"
+
+#: functions/customizer/custo_layout_manager_settings.php:167
+msgid "Section 5"
+msgstr "Sectie 5"
+
+#: functions/customizer/custo_layout_manager_settings.php:201
+msgid "Section 6"
+msgstr "Sectie 6"
+
+#: functions/customizer/custo_layout_manager_settings.php:237
+msgid "Section 7"
+msgstr "Sectie 7"
+
+#: functions/customizer/custo_post_meta_setting.php:8
+msgid "Blog meta settings"
+msgstr "Blogmeta-instellingen"
+
+#: functions/customizer/custo_post_meta_setting.php:14
+msgid "Hide post meta from blog pages, archive pages, categories, author, etc."
+msgstr ""
+"Berichtmeta van blogpagina's, archiefpagina's, categorieën, auteur, enz. "
+"verbergen."
+
+#: functions/customizer/custo_post_slugs_settings.php:6
+msgid "SEO Friendly URL"
+msgstr "SEO-vriendelijke URL"
+
+#: functions/customizer/custo_post_slugs_settings.php:14
+msgid "Project slug"
+msgstr "Projectslug"
+
+#: functions/customizer/custo_post_slugs_settings.php:23
+msgid "Project’s category slug"
+msgstr "Categorie slug van project"
+
+#: functions/customizer/custo_post_slugs_settings.php:33
+msgid "Client slug"
+msgstr "Klant slug"
+
+#: functions/customizer/custo_post_slugs_settings.php:43
+msgid "Team slug"
+msgstr "Team slug"
+
+#: functions/customizer/custo_post_slugs_settings.php:55
+msgid ""
+"After changing the slug, please don't forget to save the permalinks. Without "
+"saving them, the old permalinks will not be updated."
+msgstr ""
+"Vergeet niet om na het wijzigen van de slug de permalinks op te slaan. "
+"Zonder het opslaan worden de oude permalinks niet bijgewerkt."
+
+#: functions/customizer/custo_post_slugs_settings.php:78
+msgid "Click here permalinks setting"
+msgstr "Klik hier voor permalinks-instelling"
+
+#: functions/customizer/custo_sections_settings.php:12
+msgid "Homepage section settings"
+msgstr "Instellingen homepaginasectie"
+
+#: functions/customizer/custo_sections_settings.php:17
+msgid "Infobar settings"
+msgstr "Instellingen informatiebalk"
+
+#: functions/customizer/custo_sections_settings.php:25
+msgid "Enable Infobar"
+msgstr "Informatiebalk inschakelen"
+
+#: functions/customizer/custo_sections_settings.php:29
+#: functions/customizer/custo_sections_settings.php:57
+#: functions/customizer/custo_sections_settings.php:168
+#: functions/customizer/custo_sections_settings.php:263
+#: functions/customizer/custo_sections_settings.php:303
+#: functions/customizer/custo_sections_settings.php:342
+#: functions/customizer/custo_sections_settings.php:400
+#: functions/customizer/custo_sections_settings.php:460
+#: functions/customizer/custo_sections_settings.php:517
+#: functions/customizer/custo_template_settings.php:28
+#: functions/customizer/custo_template_settings.php:41
+#: functions/customizer/custo_template_settings.php:64
+#: functions/customizer/custo_template_settings.php:77
+#: functions/customizer/custo_template_settings.php:153
+#: functions/customizer/custo_template_settings.php:219
+#: functions/customizer/custo_template_settings.php:241
+msgid "ON"
+msgstr "AAN"
+
+#: functions/customizer/custo_sections_settings.php:30
+#: functions/customizer/custo_sections_settings.php:58
+#: functions/customizer/custo_sections_settings.php:169
+#: functions/customizer/custo_sections_settings.php:264
+#: functions/customizer/custo_sections_settings.php:304
+#: functions/customizer/custo_sections_settings.php:343
+#: functions/customizer/custo_sections_settings.php:401
+#: functions/customizer/custo_sections_settings.php:461
+#: functions/customizer/custo_sections_settings.php:518
+#: functions/customizer/custo_template_settings.php:29
+#: functions/customizer/custo_template_settings.php:42
+#: functions/customizer/custo_template_settings.php:65
+#: functions/customizer/custo_template_settings.php:78
+#: functions/customizer/custo_template_settings.php:154
+#: functions/customizer/custo_template_settings.php:220
+#: functions/customizer/custo_template_settings.php:242
+msgid "OFF"
+msgstr "UIT"
+
+#: functions/customizer/custo_sections_settings.php:35 theme_setup_data.php:25
+msgid "Busiprof: the perfect WordPress theme for an app and web developer"
+msgstr "Busiprof: het perfecte WordPress-thema voor een app en webontwikkelaar"
+
+#: functions/customizer/custo_sections_settings.php:38
+msgid "Infobar text"
+msgstr "Tekst informatiebalk"
+
+#: functions/customizer/custo_sections_settings.php:45
+msgid "Slider settings"
+msgstr "Slider-instellingen"
+
+#: functions/customizer/custo_sections_settings.php:53
+msgid "Enable slider"
+msgstr "Slider inschakelen"
+
+#: functions/customizer/custo_sections_settings.php:69
+msgid "Slider Content"
+msgstr "Inhoud slider"
+
+#: functions/customizer/custo_sections_settings.php:71
+msgid "Add new slide"
+msgstr "Nieuwe slide toevoegen"
+
+#: functions/customizer/custo_sections_settings.php:72
+msgid "Slide"
+msgstr "Slide"
+
+#: functions/customizer/custo_sections_settings.php:86
+msgid "Animation"
+msgstr "Animatie"
+
+#: functions/customizer/custo_sections_settings.php:90
+msgid "slide"
+msgstr "slide"
+
+#: functions/customizer/custo_sections_settings.php:91
+msgid "fade"
+msgstr "vervagen"
+
+#: functions/customizer/custo_sections_settings.php:99
+msgid "Direction"
+msgstr "Richting"
+
+#: functions/customizer/custo_sections_settings.php:103
+msgid "horizontal"
+msgstr "horizontaal"
+
+#: functions/customizer/custo_sections_settings.php:104
+msgid "vertical"
+msgstr "verticaal"
+
+#: functions/customizer/custo_sections_settings.php:112
+#: functions/customizer/custo_sections_settings.php:561
+msgid "Animation speed"
+msgstr "Snelheid animatie"
+
+#: functions/customizer/custo_sections_settings.php:134
+msgid "Slideshow speed"
+msgstr "Snelheid slideshow"
+
+#: functions/customizer/custo_sections_settings.php:155
+msgid "Service settings"
+msgstr "Dienst-instellingen"
+
+#: functions/customizer/custo_sections_settings.php:164
+msgid "Enable Services on homepage"
+msgstr "Diensten op homepagina inschakelen"
+
+#: functions/customizer/custo_sections_settings.php:176
+#: theme_setup_data.php:79
+msgid "Awesome Services"
+msgstr "Geweldige diensten"
+
+#: functions/customizer/custo_sections_settings.php:179
+#: functions/customizer/custo_sections_settings.php:273
+#: functions/customizer/custo_sections_settings.php:313
+#: functions/customizer/custo_sections_settings.php:352
+#: functions/customizer/custo_sections_settings.php:470
+#: functions/customizer/custo_sections_settings.php:527
+#: functions/customizer/custo_template_settings.php:96
+#: functions/customizer/custo_template_settings.php:300
+#: functions/customizer-repeater/class/customizer-repeater-control.php:256
+#: functions/customizer-repeater/class/customizer-repeater-control.php:405
+#: functions/widgets/busiprof-widget-contact.php:115
+msgid "Title"
+msgstr "Titel"
+
+#: functions/customizer/custo_sections_settings.php:185
+#: functions/customizer/custo_sections_settings.php:280
+#: functions/customizer/custo_sections_settings.php:358
+#: functions/customizer/custo_sections_settings.php:476
+#: functions/customizer/custo_sections_settings.php:534
+#: functions/customizer/custo_template_settings.php:102
+#: functions/customizer/custo_template_settings.php:306
+#: theme_setup_data.php:59 theme_setup_data.php:74 theme_setup_data.php:80
+#: theme_setup_data.php:88 theme_setup_data.php:94 theme_setup_data.php:107
+#: theme_setup_data.php:111 theme_setup_data.php:117 theme_setup_data.php:120
+msgid ""
+"We are a group of passionate designers and developers who really love "
+"creating awesome WordPress themes and giving support."
+msgstr ""
+"We zijn een groep gepassioneerde ontwerpers en ontwikkelaars die dol zijn op "
+"het maken van geweldige WordPress-thema's en het geven van ondersteuning."
+
+#: functions/customizer/custo_sections_settings.php:188
+#: functions/customizer/custo_sections_settings.php:283
+#: functions/customizer/custo_sections_settings.php:322
+#: functions/customizer/custo_sections_settings.php:361
+#: functions/customizer/custo_sections_settings.php:479
+#: functions/customizer/custo_sections_settings.php:537
+#: functions/customizer/custo_template_settings.php:105
+#: functions/customizer/custo_template_settings.php:309
+#: functions/customizer-repeater/class/customizer-repeater-control.php:270
+#: functions/customizer-repeater/class/customizer-repeater-control.php:419
+#: functions/meta-box/post-meta.php:25 functions/meta-box/post-meta.php:26
+#: functions/meta-box/post-meta.php:37 functions/meta-box/post-meta.php:38
+#: functions/meta-box/post-meta.php:58 functions/meta-box/post-meta.php:59
+#: functions/widgets/busiprof-header-widget.php:100
+msgid "Description"
+msgstr "Beschrijving"
+
+#: functions/customizer/custo_sections_settings.php:198
+msgid "Service content"
+msgstr "Inhoud dienst"
+
+#: functions/customizer/custo_sections_settings.php:201
+msgid "Add new Service"
+msgstr "Nieuwe dienst toevoegen"
+
+#. Template Name of the plugin/theme
+msgid "Service"
+msgstr "Dienst"
+
+#: functions/customizer/custo_sections_settings.php:214
+#: theme_setup_data.php:82
+msgid "More Services"
+msgstr "Meer diensten"
+
+#: functions/customizer/custo_sections_settings.php:217
+#: functions/customizer-repeater/class/customizer-repeater-control.php:279
+#: functions/customizer-repeater/class/customizer-repeater-control.php:427
+msgid "Button Text"
+msgstr "Tekst knop"
+
+#: functions/customizer/custo_sections_settings.php:226
+msgid "Button Link"
+msgstr "Link knop"
+
+#: functions/customizer/custo_sections_settings.php:242
+#: functions/meta-box/post-meta.php:24 functions/meta-box/post-meta.php:43
+#: functions/widgets/busiprof-header-widget.php:106
+msgid "Open link in new tab"
+msgstr "Link in nieuw tabblad openen"
+
+#: functions/customizer/custo_sections_settings.php:251
+msgid "Project settings"
+msgstr "Project-instellingen"
+
+#: functions/customizer/custo_sections_settings.php:259
+msgid "Enable Home Project section"
+msgstr "Project-sectie homepagina inschakelen"
+
+#: functions/customizer/custo_sections_settings.php:270
+#: functions/customizer/custo_template_settings.php:93 theme_setup_data.php:73
+#: theme_setup_data.php:87 theme_setup_data.php:116
+msgid "Recent Projects"
+msgstr "Recente projecten"
+
+#: functions/customizer/custo_sections_settings.php:291
+msgid "Recent Blog setting"
+msgstr "Instelling recente blog"
+
+#: functions/customizer/custo_sections_settings.php:299
+msgid "Enable Home Blog section"
+msgstr "Blog-sectie homepagina inschakelen"
+
+#: functions/customizer/custo_sections_settings.php:310
+#: theme_setup_data.php:110
+msgid "Recent Blog"
+msgstr "Recente blog"
+
+#: functions/customizer/custo_sections_settings.php:319
+#: functions/customizer/customizer.php:140
+#: functions/customizer/customizer.php:149
+#: functions/customizer/customizer.php:158 index-slider-two.php:53
+#: index-slider-two.php:63 index-slider-two.php:73 index-slider.php:94
+#: index-slider.php:104 index-slider.php:114 index-testimonials-two.php:55
+msgid ""
+"We are a group of passionate designers and developers who love to create "
+"awesome WordPress themes with an amazing support and the coolest video "
+"documentation."
+msgstr ""
+"We zijn een groep gepassioneerde ontwerpers en ontwikkelaars die dol zijn op "
+"het maken van geweldige WordPress-thema's met een geweldige ondersteuning en "
+"de meest coole video-documentatie."
+
+#: functions/customizer/custo_sections_settings.php:330
+msgid "Team setting"
+msgstr "Instelling team"
+
+#: functions/customizer/custo_sections_settings.php:338
+msgid "Enable Home Team section"
+msgstr "Team-sectie home inschakelen"
+
+#: functions/customizer/custo_sections_settings.php:349
+#: theme_setup_data.php:93
+msgid "Meet The Team"
+msgstr "Ontmoet het team"
+
+#: functions/customizer/custo_sections_settings.php:375
+msgid "Click here to add Team"
+msgstr "Klik hier om een team toe te voegen"
+
+#: functions/customizer/custo_sections_settings.php:396
+msgid "Enable background image"
+msgstr "Achtergrondafbeelding inschakelen"
+
+#: functions/customizer/custo_sections_settings.php:412
+msgid "Background Image"
+msgstr "Achtergrondafbeelding"
+
+#: functions/customizer/custo_sections_settings.php:425
+msgid "Enable background image overlay"
+msgstr "Overlay achtegrondafbeelding inschakelen"
+
+#: functions/customizer/custo_sections_settings.php:438
+msgid "Background attachment"
+msgstr "Positionering achtergrond"
+
+#: functions/customizer/custo_sections_settings.php:448
+msgid "Testimonial settings"
+msgstr "Recensie-instellingen"
+
+#: functions/customizer/custo_sections_settings.php:456
+msgid "Enable Home Testimonial section"
+msgstr "Recensie-sectie homepagina inschakelen"
+
+#: functions/customizer/custo_sections_settings.php:467
+#: theme_setup_data.php:106
+msgid "Our Testimonials"
+msgstr "Onze recensies"
+
+#: functions/customizer/custo_sections_settings.php:489
+msgid "Testimonial content"
+msgstr "Inhoud recensie"
+
+#: functions/customizer/custo_sections_settings.php:491
+msgid "Add new Testimonial"
+msgstr "Nieuwe recensie toevoegen"
+
+#: functions/customizer/custo_sections_settings.php:492
+msgid "Testimonial"
+msgstr "Recensie"
+
+#: functions/customizer/custo_sections_settings.php:505
+msgid "Client Slider settings"
+msgstr "Instellingen klant slider"
+
+#: functions/customizer/custo_sections_settings.php:513
+msgid "Enable Home Client section"
+msgstr "Klant-sectie homepagina inschakelen"
+
+#: functions/customizer/custo_sections_settings.php:524
+#: theme_setup_data.php:58
+msgid "Meet our clients"
+msgstr "Ontmoet onze klanten"
+
+#: functions/customizer/custo_sections_settings.php:546
+msgid "Number of shown clients"
+msgstr "Aantal te tonen klanten"
+
+#: functions/customizer/custo_sections_settings.php:587
+msgid "Click here to add client"
+msgstr "Klik hier om een klant toe te voegen"
+
+#: functions/customizer/custo_template_settings.php:8
+msgid "Template settings"
+msgstr "Template-instellingen"
+
+#: functions/customizer/custo_template_settings.php:15
+msgid "About Us page settings"
+msgstr "Over ons pagina-instellingen"
+
+#: functions/customizer/custo_template_settings.php:24
+msgid "Enable Team section"
+msgstr "Team-sectie inschakelen"
+
+#: functions/customizer/custo_template_settings.php:37
+#: functions/customizer/custo_template_settings.php:73
+msgid "Enable Client section"
+msgstr "Klant-sectie inschakelen"
+
+#: functions/customizer/custo_template_settings.php:50
+msgid "Service page settings"
+msgstr "Dienst pagina-instellingen"
+
+#: functions/customizer/custo_template_settings.php:60
+msgid "Enable Testimonial section"
+msgstr "Recensie-sectie inschakelen"
+
+#: functions/customizer/custo_template_settings.php:85
+msgid "Project page settings"
+msgstr "Instellingen projectpagina"
+
+#: functions/customizer/custo_template_settings.php:114
+msgid "Number of displayed projects"
+msgstr "Aantal getoonde projecten"
+
+#: functions/customizer/custo_template_settings.php:126
+#: functions/customizer/custo_template_settings.php:259
+msgid "Select column layout"
+msgstr "Kolom-layout selecteren"
+
+#: functions/customizer/custo_template_settings.php:141
+msgid "Contact page setting"
+msgstr "Contactpagina-instelling"
+
+#: functions/customizer/custo_template_settings.php:149
+msgid "Enable contact information"
+msgstr "Contactinformatie inschakelen"
+
+#: functions/customizer/custo_template_settings.php:162
+msgid "Address one"
+msgstr "Adres één"
+
+#: functions/customizer/custo_template_settings.php:171
+msgid "Address two"
+msgstr "Adres twee"
+
+#: functions/customizer/custo_template_settings.php:215
+msgid "Enable Google Maps"
+msgstr "Google Maps inschakelen"
+
+#: functions/customizer/custo_template_settings.php:229
+msgid "Google Maps URL"
+msgstr "Google Maps URL"
+
+#: functions/customizer/custo_template_settings.php:237
+msgid "Enable Client slider"
+msgstr "Klant slider inschakelen"
+
+#: functions/customizer/custo_template_settings.php:248
+msgid "Project Archive page settings"
+msgstr "Instellingen archiefpagina project"
+
+#: functions/customizer/custo_template_settings.php:279
+msgid "Click here to add project"
+msgstr "Klik hier om project toe te voegen"
+
+#: functions/customizer/custo_template_settings.php:297
+#: theme_setup_data.php:119
+msgid "Recent Project category"
+msgstr "Recente projectcategorie"
+
+#: functions/customizer/custo_theme_style.php:42
+msgid "Predefined default background"
+msgstr "Vooringestelde standaard achtergrond"
+
+#: functions/customizer/custo_theme_style.php:71
+msgid "Theme style settings"
+msgstr "Themastijl-instellingen"
+
+#: functions/customizer/custo_theme_style.php:79
+msgid "wide"
+msgstr "breed"
+
+#: functions/customizer/custo_theme_style.php:90
+msgid "Theme Layout"
+msgstr "Thema lay-out"
+
+#: functions/customizer/custo_theme_style.php:105
+msgid "Predefined default backgrounds"
+msgstr "Vooringestelde standaard achtergronden"
+
+#: functions/customizer/custo_theme_style.php:135
+msgid "Predefined colors"
+msgstr "Voorgedefinieerde kleuren"
+
+#: functions/customizer/custo_theme_style.php:170
+msgid "Enable custom color skin"
+msgstr "Aangepaste kleurenthema inschakelen"
+
+#: functions/customizer/custo_theme_style.php:188
+msgid "Skin color"
+msgstr "Themakleur"
+
+#: functions/customizer/customizer.php:38 index-service.php:156
+#: service-template.php:175
+msgid "Web Design"
+msgstr "Webdesign"
+
+#: functions/customizer/customizer.php:39
+#: functions/customizer/customizer.php:48
+#: functions/customizer/customizer.php:57
+#: functions/customizer/customizer.php:67 index-service.php:170
+#: service-template.php:189
+msgid ""
+"It is a long established fact that a reader will be distracted by the "
+"readable content of a page when looking at its layout."
+msgstr ""
+"Het is een welbekend feit dat een lezer zal worden afgeleid van de leesbare "
+"inhoud van een pagina als deze naar zijn lay-out kijkt."
+
+#: functions/customizer/customizer.php:47 index-service.php:156
+#: service-template.php:175
+msgid "Unique Elements"
+msgstr "Unieke elementen"
+
+#: functions/customizer/customizer.php:56 index-service.php:156
+#: service-template.php:175
+msgid "User Friendly"
+msgstr "Gebruiksvriendelijk"
+
+#: functions/customizer/customizer.php:66 index-service.php:156
+#: service-template.php:175
+msgid "24/7 Support"
+msgstr "24/7 ondersteuning"
+
+#: functions/customizer/customizer.php:139 index-project.php:181
+#: index-project.php:274 index-slider-two.php:52 index-slider.php:93
+msgid "Responsive WP theme"
+msgstr "Responsive WP-thema"
+
+#: functions/customizer/customizer.php:148 index-project.php:49
+#: index-project.php:203 index-slider-two.php:62 index-slider.php:103
+msgid "Graphic design"
+msgstr "Grafisch ontwerp"
+
+#: functions/customizer/customizer.php:157 index-slider-two.php:72
+#: index-slider.php:113
+msgid "User friendly"
+msgstr "Gebruiksvriendelijk"
+
+#: functions/customizer/customizer.php:206
+msgid "Natalie Portman"
+msgstr "Natalie Portman"
+
+#: functions/customizer/customizer.php:207
+#: functions/customizer/customizer.php:217
+#: functions/customizer/customizer.php:226
+#: functions/customizer/customizer.php:235
+msgid ""
+"We are group of passionate designers and developers who really love to "
+"create wordpress themes with amazing support. Widest laborum dolo rumes "
+"fugats untras. Ethar omnis iste natus error sit voluptatem "
+"accusantiexplicabo. Nemo enim ipsam eque porro quisquam est, qui dolorem "
+"ipsum am quaerat voluptatem..."
+msgstr ""
+"We zijn een groep gepassioneerde ontwerpers en ontwikkelaars die dol zijn op "
+"het maken van geweldige WordPress-thema's met geweldige ondersteuning. "
+"Widest laborum dolo rumes fugats untras. Ethar omnis iste natus error sit "
+"voluptatem accusantiexplicabo. Nemo enim ipsam eque porro quisquam est, qui "
+"dolorem ipsum am quaerat voluptatem..."
+
+#: functions/customizer/customizer.php:216
+msgid "Robert Johnson"
+msgstr "Robert Johnson"
+
+#: functions/customizer/customizer.php:225
+msgid "Annah Doe"
+msgstr "Annah Doe"
+
+#: functions/customizer/customizer.php:234
+msgid "Charlie Sun"
+msgstr "Charlie Sun"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:33
+msgid "Add new field"
+msgstr "Voeg een nieuw veld toe"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:38
+msgid "Customizer Repeater"
+msgstr "Customizer herhaler"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:263
+#: functions/customizer-repeater/class/customizer-repeater-control.php:412
+msgid "Subtitle"
+msgstr "Ondertitel"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:290
+#: functions/customizer-repeater/class/customizer-repeater-control.php:437
+#: functions/customizer-repeater/class/customizer-repeater-control.php:626
+#: functions/customizer-repeater/class/customizer-repeater-control.php:648
+#: functions/meta-box/post-meta.php:22 functions/meta-box/post-meta.php:23
+#: functions/meta-box/post-meta.php:41 functions/meta-box/post-meta.php:42
+#: functions/widgets/busiprof-header-widget.php:103
+msgid "Link"
+msgstr "Link"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:309
+#: functions/customizer-repeater/class/customizer-repeater-control.php:455
+msgid "Video Url"
+msgstr "Video URL"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:333
+#: functions/customizer-repeater/class/customizer-repeater-control.php:397
+msgid "Color"
+msgstr "Kleur"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:343
+#: functions/customizer-repeater/class/customizer-repeater-control.php:466
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:351
+#: functions/customizer-repeater/class/customizer-repeater-control.php:475
+#: functions/meta-box/post-meta.php:39 functions/meta-box/post-meta.php:40
+#: functions/meta-box/post-meta.php:56 functions/meta-box/post-meta.php:57
+msgid "Designation"
+msgstr "Bestemming"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:367
+#: functions/customizer-repeater/class/customizer-repeater-control.php:486
+msgid "Delete field"
+msgstr "Verwijder veld"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:523
+msgid "Open link in new tab:"
+msgstr "Link in een nieuwe tab openen:"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:534
+#: functions/customizer-repeater/class/customizer-repeater-control.php:602
+msgid "Icon"
+msgstr "Icoon"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:539
+msgid ""
+"Note: Some icons may not be displayed here. You can see the full list of "
+"icons at %1$s."
+msgstr ""
+"Opmerking: enkele iconen worden hier niet weergeven. Je kunt een volledige "
+"lijst van iconen zien via %1$s."
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:540
+msgid "http://fontawesome.io/icons/"
+msgstr "http://fontawesome.io/icons/"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:557
+#: functions/customizer-repeater/class/customizer-repeater-control.php:603
+msgid "Image"
+msgstr "Afbeelding"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:560
+msgid "Upload Image"
+msgstr "Upload afbeelding"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:569
+msgid "Slide Format"
+msgstr "Formaat slide"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:573
+msgid "Standard"
+msgstr "Standaard"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:577
+msgid "Aside"
+msgstr "Aside"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:581
+msgid "Quote"
+msgstr "Citaat"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:585
+msgid "Status"
+msgstr "Status"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:589
+msgid "Video"
+msgstr "Video"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:599
+msgid "Image type"
+msgstr "Type afbeelding"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:604
+msgid "None"
+msgstr "Geen"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:629
+#: functions/customizer-repeater/class/customizer-repeater-control.php:659
+msgid "Remove Icon"
+msgstr "Verwijder icoon"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:634
+#: functions/customizer-repeater/class/customizer-repeater-control.php:667
+msgid "Add Icon"
+msgstr "Icoon toevoegen"
+
+#: functions/meta-box/post-meta.php:6
+msgid "Slider Detail"
+msgstr "Slider details"
+
+#: functions/meta-box/post-meta.php:7
+msgid "Service Detail"
+msgstr "Dienst details"
+
+#: functions/meta-box/post-meta.php:8
+msgid "Project Details"
+msgstr "Project details"
+
+#: functions/meta-box/post-meta.php:9
+msgid "Testimonial Detail"
+msgstr "Recensie details"
+
+#: functions/meta-box/post-meta.php:10
+msgid "Member Details"
+msgstr "Leden details"
+
+#: functions/meta-box/post-meta.php:11
+msgid "Client Detail"
+msgstr "Klant details"
+
+#: functions/meta-box/post-meta.php:70
+msgid "Upload client image using featured image"
+msgstr "Klantafbeelding uploaden via uitgelichte afbeelding"
+
+#: functions/post-type/custom-post-type.php:29
+msgid "Project"
+msgstr "Project"
+
+#: functions/post-type/custom-post-type.php:31
+#: functions/post-type/custom-post-type.php:33
+#: functions/post-type/custom-post-type.php:68
+#: functions/post-type/custom-post-type.php:70
+#: functions/post-type/custom-post-type.php:98
+#: functions/post-type/custom-post-type.php:100
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: functions/post-type/custom-post-type.php:32
+msgid "Add New Project"
+msgstr "Nieuw project toevoegen"
+
+#: functions/post-type/custom-post-type.php:34
+#: functions/post-type/custom-post-type.php:71
+#: functions/post-type/custom-post-type.php:101
+msgid "New Link"
+msgstr "Nieuwe link"
+
+#: functions/post-type/custom-post-type.php:35
+msgid "All Projects"
+msgstr "Alle projecten"
+
+#: functions/post-type/custom-post-type.php:36
+#: functions/post-type/custom-post-type.php:73
+#: functions/post-type/custom-post-type.php:103
+msgid "View Link"
+msgstr "Link bekijken"
+
+#: functions/post-type/custom-post-type.php:37
+#: functions/post-type/custom-post-type.php:74
+#: functions/post-type/custom-post-type.php:104
+msgid "Search Links"
+msgstr "Links zoeken"
+
+#: functions/post-type/custom-post-type.php:38
+#: functions/post-type/custom-post-type.php:75
+#: functions/post-type/custom-post-type.php:105
+msgid "No Links found"
+msgstr "Geen links gevonden"
+
+#: functions/post-type/custom-post-type.php:39
+#: functions/post-type/custom-post-type.php:76
+#: functions/post-type/custom-post-type.php:106
+msgid "No links found in trash"
+msgstr "Geen links in de prullenbak gevonden"
+
+#: functions/post-type/custom-post-type.php:66
+msgid "Our Team"
+msgstr "Ons team"
+
+#: functions/post-type/custom-post-type.php:69
+msgid "Add New Member"
+msgstr "Nieuw teamlid toevoegen"
+
+#: functions/post-type/custom-post-type.php:72
+msgid "All Members"
+msgstr "Alle leden"
+
+#: functions/post-type/custom-post-type.php:96
+msgid " Client"
+msgstr "Klant"
+
+#: functions/post-type/custom-post-type.php:99
+msgid "Add New Client"
+msgstr "Nieuwe klant toevoegen"
+
+#: functions/post-type/custom-post-type.php:102
+msgid "All Clients"
+msgstr "Alle klanten"
+
+#: functions/taxonomies/taxonomie.php:16
+msgid "Project categories"
+msgstr "Projectcategorieën"
+
+#: functions/widgets/busiprof-header-widget.php:14
+msgid "WBR: Header Widget"
+msgstr "WBR: header widget"
+
+#: functions/widgets/busiprof-header-widget.php:76
+#: functions/widgets/busiprof-header-widget.php:101
+msgid "Email us: themes@busiprof.com"
+msgstr "Mail ons: themes@busiprof.com"
+
+#: functions/widgets/busiprof-header-widget.php:96
+msgid "Font Awesome icon"
+msgstr "Font Awesome-icoon"
+
+#: functions/widgets/busiprof-header-widget.php:98
+msgid "Find all icons"
+msgstr "Alle iconen vinden"
+
+#: functions/widgets/busiprof-header-widget.php:98
+msgid "here"
+msgstr "hier"
+
+#: functions/widgets/busiprof-latest-widget.php:16
+msgid "WBR : Latest Posts"
+msgstr "WBR: nieuwste berichten"
+
+#: functions/widgets/busiprof-latest-widget.php:17
+msgid "To display your recent posts"
+msgstr "Om je recente berichten te tonen"
+
+#: functions/widgets/busiprof-latest-widget.php:34
+#: functions/widgets/busiprof-latest-widget.php:110
+#: functions/widgets/busiprof-latest-widget.php:187
+msgid "Popular"
+msgstr "Populair"
+
+#: functions/widgets/busiprof-latest-widget.php:36
+#: functions/widgets/busiprof-latest-widget.php:112
+#: functions/widgets/busiprof-latest-widget.php:189
+msgid "Recent"
+msgstr "Recent"
+
+#: functions/widgets/busiprof-widget-contact.php:16
+msgid "WBR: Contact Widget"
+msgstr "WBR: contact widget"
+
+#: functions/widgets/busiprof-widget-contact.php:17
+msgid "To display your contact information"
+msgstr "Om je contactinformatie te tonen"
+
+#: functions/widgets/busiprof-widget-contact.php:49
+msgid "Thank you"
+msgstr "Bedankt"
+
+#: functions/widgets/busiprof-widget-contact.php:49
+msgid "Your information has been sent."
+msgstr "Je informatie is verstuurd."
+
+#: functions/widgets/busiprof-widget-contact.php:80
+msgid "Sorry, your nonce did not verify."
+msgstr "Sorry, je nonce kon niet worden geverifieerd."
+
+#: functions/widgets/busiprof-widget-contact.php:87
+msgid "sent you a message from"
+msgstr "heeft je een bericht gestuurd via"
+
+#: functions/widgets/busiprof-widget-contact.php:111
+msgid "Quick contact"
+msgstr "Snel contact opnemen"
+
+#: functions/widgets/custom-widgets.php:7
+#: functions/widgets/custom-widgets.php:9
+msgid "Sidebar widget area"
+msgstr "Zijbalk widgetruimte"
+
+#: functions/widgets/custom-widgets.php:17
+#: functions/widgets/custom-widgets.php:19
+msgid "Footer widget area"
+msgstr "Footer widget ruimte"
+
+#: functions/widgets/custom-widgets.php:27
+#: functions/widgets/custom-widgets.php:29
+msgid "WooCommerce sidebar widget area"
+msgstr "WooCommerce zijbalk widgetgebied"
+
+#: functions/widgets/custom-widgets.php:39
+#: functions/widgets/custom-widgets.php:41
+msgid "Top header left area"
+msgstr "Top header linkergebied"
+
+#: functions/widgets/custom-widgets.php:50
+#: functions/widgets/custom-widgets.php:52
+msgid "Top header right area"
+msgstr "Top header rechtergebied"
+
+#: functions.php:82
+msgid "Primary Menu"
+msgstr "Primair menu"
+
+#: index-project.php:47
+msgid "All"
+msgstr "Alles"
+
+#: index-project.php:48
+msgid "Web design"
+msgstr "Web ontwerp"
+
+#: index-project.php:50
+msgid "Web development"
+msgstr "Web ontwikkeling"
+
+#: index-project.php:51
+msgid "Multimedia"
+msgstr "Multimedia"
+
+#: index-project.php:52
+msgid "Print media"
+msgstr "Drukwerk"
+
+#: index-project.php:137 index-project.php:230 index-project.php:303
+#: index-project.php:354 index-project.php:383 index-project.php:434
+msgid "Business cards"
+msgstr "Visitekaartjes"
+
+#: index-project.php:140 index-project.php:162 index-project.php:184
+#: index-project.php:206 index-project.php:233 index-project.php:255
+#: index-project.php:277 index-project.php:306 index-project.php:328
+#: index-project.php:357 index-project.php:386 index-project.php:408
+#: index-project.php:437
+msgid "Graphic design & web design"
+msgstr "Grafisch ontwerp & web ontwerp"
+
+#: index-project.php:159 index-project.php:252 index-project.php:325
+msgid "Clean and usable UI kit"
+msgstr "Nette en bruikbare UI-kit"
+
+#: index-project.php:405
+msgid "Responsive design"
+msgstr "Responsive ontwerp"
+
+#: index-testimonials-two.php:56
+msgid "(Sales & Marketing)"
+msgstr "(Verkoop & marketing)"
+
+#: index-testimonials.php:103
+msgid ""
+"We are a group of passionate designers and developers who really love "
+"creating awesome WordPress themes & giving support. Widest laborum dolo "
+"rumes fugats untras. Ethar omnis iste natus error sit voluptatem "
+"accusantiexplicabo. Nemo enim ipsam eque porro quisquam est, qui dolorem "
+"ipsum am quaerat voluptatem..."
+msgstr ""
+"We zijn een groep gepassioneerde ontwerpers en ontwikkelaars die dol zijn op "
+"het maken van geweldige WordPress-thema's & het geven van ondersteuning. "
+"Widest laborum dolo rumes fugats untras. Ethar omnis iste natus error sit "
+"voluptatem accusantiexplicabo. Nemo enim ipsam eque porro quisquam est, qui "
+"dolorem ipsum am quaerat voluptatem..."
+
+#: search.php:27
+msgid "Nothing found"
+msgstr "Niets gevonden"
+
+#: search.php:28
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Helaas, geen resultaten voldeden aan de zoekcriteria. Probeer het opnieuw "
+"met andere zoekwoorden."
+
+#: searchform.php:15 searchform.php:16
+msgid "Search"
+msgstr "Zoeken"
+
+#: single-busiprof_portfolio.php:25
+msgid "Leave a comment"
+msgstr "Een reactie plaatsen"
+
+#: tag.php:14
+msgid "Tag Archive "
+msgstr "Tag archief"
+
+#. Theme Name of the plugin/theme
+msgid "BusiProf Pro"
+msgstr "BusiProf Pro"
+
+#. Description of the plugin/theme
+msgid ""
+"A responsive theme for all type of business that features multiple nav "
+"menus, several sidebars, and more. With pixel-perfect design, it's great for "
+"any blogger who wants a new look for their site. The theme is built using "
+"Twitter bootstrap."
+msgstr ""
+"Een reponsive thema voor allerlei soorten bedrijven met meerdere "
+"navigatiemenu's, enkele zijbalken en meer. Met een tot de pixel perfect "
+"ontwerp, is het geweldig voor elke blogger die een nieuwe look voor hun site "
+"wil. Het thema is gebouwd met Twitter bootstrap."
+
+#. Template Name of the plugin/theme
+msgid "Page Fullwidth"
+msgstr "Pagina volledige breedte"
+
+#. Template Name of the plugin/theme
+msgid "About Us"
+msgstr "Over ons"
+
+#. Template Name of the plugin/theme
+msgid "Blog-Fullwidth"
+msgstr "Blog-volledige-breedte"
+
+#. Template Name of the plugin/theme
+msgid "Blog-left-sidebar"
+msgstr "Blog-zijbalk-links"
+
+#. Template Name of the plugin/theme
+msgid "Blog-Right-Sidebar"
+msgstr "Blog-zijbalk-rechts"
+
+#. Template Name of the plugin/theme
+msgid "Contact"
+msgstr "Contact"
+
+#. Template Name of the plugin/theme
+msgid "Project-2-column"
+msgstr "Project-2-kolom"
+
+#. Template Name of the plugin/theme
+msgid "Homepage Two"
+msgstr "Homepagina twee"
+
+#. Template Name of the plugin/theme
+msgid "Project-3-column"
+msgstr "Project-3-kolom"
+
+#. Template Name of the plugin/theme
+msgid "Project-4-column"
+msgstr "Project-4-kolom"
+
+#. Template Name of the plugin/theme
+msgid "Project With Category"
+msgstr "Project met categorie"

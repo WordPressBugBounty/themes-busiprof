@@ -1,9 +1,9 @@
 == BusiProf ==
 
-Contributors: priyanshumittal
+Contributors: priyanshumittal, freemius
 Requires at least: 4.5
-Tested up to: 6.9
-Stable tag: 2.5.3
+Tested up to: 7.0
+Stable tag: 2.5.4
 Requires PHP: 5.4
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 License: GNU General Public License v2 or later
@@ -51,11 +51,16 @@ In WordPress 5.8, the default widget title is showing in the H2 tag if you want 
 
 == License ==
 
-Busiprof WordPress Theme, Copyright (C) 2013-2025, priyanshumittal
+Busiprof WordPress Theme, Copyright (C) 2013-2026, priyanshumittal
 Busiprof WordPress Theme is distributed under the terms of the GNU GPL
 
 
 == Changelog ==
+
+@version 2.5.4
+1. Introduced Freemius opt-in and licensing system.
+2. Premium features can now be activated via license key.
+3. Fixed some minor bugs.
 
 @Version 2.5.3
 1. Added Post navigation and releted post section for single post.

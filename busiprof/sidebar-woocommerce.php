@@ -1,16 +1,14 @@
 <?php
 /**
- * side bar template
- *
+ * Wrapper for sidebar-woocommerce.php
  */
-?>
-
-<?php if ( is_active_sidebar( 'woocommerce-1' )  ) : ?>
-<!--Sidebar-->
-<div class="col-md-4 col-xs-12">
-	<div class="sidebar">
-	<?php dynamic_sidebar( 'woocommerce-1' ); ?>
-	</div>
-</div>
-<!--/End of Sidebar-->
-<?php endif;
+if ( function_exists( 'bus_fs' ) && bus_fs()->can_use_premium_code() ) {
+    $pro_file = get_template_directory() . '/pro/sidebar-woocommerce.php';
+    if ( file_exists( $pro_file ) ) {
+        require $pro_file;
+    } else {
+        require get_template_directory() . '/free/sidebar-woocommerce.php';
+    }
+} else {
+    require get_template_directory() . '/free/sidebar-woocommerce.php';
+}

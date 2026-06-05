@@ -1,7 +1,14 @@
-<?php if ( is_active_sidebar('sidebar-primary') ) : ?>	
-<div class="col-md-4 col-xs-12">
-	<div class="sidebar">
-  <?php dynamic_sidebar('sidebar-primary' );  ?>
-	</div>
-</div>	
-<?php endif;
+<?php
+/**
+ * Wrapper for sidebar.php
+ */
+if ( function_exists( 'bus_fs' ) && bus_fs()->can_use_premium_code() ) {
+    $pro_file = get_template_directory() . '/pro/sidebar.php';
+    if ( file_exists( $pro_file ) ) {
+        require $pro_file;
+    } else {
+        require get_template_directory() . '/free/sidebar.php';
+    }
+} else {
+    require get_template_directory() . '/free/sidebar.php';
+}

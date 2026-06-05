@@ -1,5 +1,10 @@
 == Changelog ==
 
+@Version 2.5.4
+1. Introduced Freemius opt-in and licensing system.
+2. Premium features can now be activated via license key.
+3. Fixed some minor bugs.
+
 @Version 2.5.3
 1. Added Post navigation and releted post section for single post.
 2. Added categories for home page blog section, blog page and single post.

@@ -1,0 +1,1437 @@
+# <!=Copyright (C) 2017 Webriti
+# This file is distributed under the GNU General Public License v2.0.=!>
+# Translators:
+# FX Bénard <fxb@wp-translations.org>, 2017
+# Robert Sim <contact@robertsky.com>, 2017
+# Patricia BT <patricia@torre.me>, 2017
+# Jack Lee <suifengtec@qq.com>, 2017
+# 颜泊泓 <553327522@qq.com>, 2017
+# Tony Archambeau <archambeautony@free.fr>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: BusiProf Pro 1.8.4\n"
+"Report-Msgid-Bugs-To: https://wp-translations.pro/\n"
+"POT-Creation-Date: 2017-11-09 14:27:53+00:00\n"
+"PO-Revision-Date: 2017-12-08 12:06+0530\n"
+"Last-Translator: Tony Archambeau <archambeautony@free.fr>, 2017\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/wp-translations/"
+"teams/64435/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:14 functions/breadcrumbs/breadcrumbs.php:103
+msgid "Error 404"
+msgstr "404错误"
+
+#: 404.php:15
+msgid "Oops! Page not found!"
+msgstr "出错了！未找到页面"
+
+#: 404.php:16
+msgid "We are sorry, but the page you are looking for does not exist."
+msgstr "非常抱歉，您正在找的页面不存在。"
+
+#: 404.php:17
+msgid "Go Back"
+msgstr "返回"
+
+#: aboutus.php:92 aboutus.php:124
+msgid "(DEVELOPER)"
+msgstr "（开发人员）"
+
+#: aboutus.php:93 index-team.php:84
+msgid ""
+"Here you can add a short bio about the owner, or the staff, of your "
+"establishment. Here you can add a short bio about the owner, or the staff, "
+"of your establishment. Neque porro quisquam est, qui dolorem ipsum am "
+"quaerat voluptatem."
+msgstr ""
+"在这里您可以添加一个关于老板或您的工作人员的简单个人简历。在这里您可以添加一"
+"个关于老板的简单个人简历。范例文字，请取代此段落文字。此段落文字为范例文字内"
+"容，请务必取代。范例文字，请取代此段落文字。"
+
+#: aboutus.php:106 aboutus.php:140
+msgid "(DESIGNER)"
+msgstr "（设计师）"
+
+#: archive.php:17
+msgid "Daily Archive "
+msgstr "按日归档"
+
+#: archive.php:21
+msgid "Monthly Archive "
+msgstr "月度归档"
+
+#: archive.php:25
+msgid "Yearly Archive "
+msgstr "年度归档"
+
+#: archive.php:29
+msgid "Blog Archive "
+msgstr "博客归档"
+
+#: archive.php:69 author.php:51 blog-fullwidth.php:33 blog-left-sidebar.php:37
+#: blog-right-sidebar.php:33 category.php:50
+#: functions/pagination/webriti_pagination.php:8 index.php:26 search.php:35
+#: tag.php:50 taxonomy-project_categories.php:94
+msgid "Previous"
+msgstr "上一页"
+
+#: archive.php:70 author.php:52 blog-fullwidth.php:34 blog-left-sidebar.php:38
+#: blog-right-sidebar.php:34 category.php:51
+#: functions/pagination/webriti_pagination.php:13 index.php:27 search.php:36
+#: tag.php:51 taxonomy-project_categories.php:95
+msgid "Next"
+msgstr "下一个"
+
+#: category.php:14
+msgid "Category Archive"
+msgstr "分类归档"
+
+#: comments.php:11
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "这篇文章受密码保护。输入密码以查看评论。"
+
+#: comments.php:15 functions/widgets/busiprof-latest-widget.php:38
+#: functions/widgets/busiprof-latest-widget.php:114
+#: functions/widgets/busiprof-latest-widget.php:191
+msgid "Comment"
+msgstr "评论"
+
+#: comments.php:18 comments.php:28
+msgid "Comment navigation"
+msgstr "评论导航"
+
+#: comments.php:19 comments.php:29
+msgid "&larr; Older Comments"
+msgstr "&larr; 早期评论"
+
+#: comments.php:20 comments.php:30
+msgid "Newer Comments &rarr;"
+msgstr "较新评论 &rarr;"
+
+#: comments.php:38
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment"
+msgstr "要发表评论，您必须先<a href=\"%s\">登录</a>。"
+
+#: comments.php:44 functions/widgets/busiprof-widget-contact.php:37
+#: functions/widgets/busiprof-widget-contact.php:38
+msgid "Name"
+msgstr "名称"
+
+#: comments.php:45 contact.php:60
+#: functions/customizer/custo_template_settings.php:198
+#: functions/widgets/busiprof-widget-contact.php:39
+#: functions/widgets/busiprof-widget-contact.php:40
+msgid "Email"
+msgstr "电子邮件"
+
+#: comments.php:53 functions/widgets/busiprof-widget-contact.php:41
+#: functions/widgets/busiprof-widget-contact.php:42
+msgid "Message"
+msgstr "消息"
+
+#: comments.php:54
+msgid "Logged in as "
+msgstr "以以下身份登陆"
+
+#: comments.php:54
+msgid "Logout of this account"
+msgstr "登出这个帐号"
+
+#: comments.php:54
+msgid "Logout"
+msgstr "登出"
+
+#: comments.php:56 functions/widgets/busiprof-widget-contact.php:43
+msgid "Send Message"
+msgstr "发送信息"
+
+#: comments.php:58 content.php:32 index-blog.php:42
+msgid "Leave a Reply"
+msgstr "发表评论"
+
+#: contact.php:52 functions/customizer/custo_template_settings.php:180
+msgid "Phone"
+msgstr "手机"
+
+#: contact.php:57 functions/customizer/custo_template_settings.php:189
+msgid "Fax"
+msgstr "传真"
+
+#: contact.php:65 functions/customizer/custo_template_settings.php:207
+msgid "Website"
+msgstr "网站"
+
+#: content.php:45 index-blog.php:53 index-slider-two.php:54
+#: index-slider-two.php:64 index-slider-two.php:74 index-slider.php:95
+#: index-slider.php:105 index-slider.php:115
+msgid "Read More"
+msgstr "阅读更多"
+
+#: footer.php:29
+msgid "Facebook"
+msgstr "Facebook"
+
+#: footer.php:30
+msgid "Twitter"
+msgstr "Twitter"
+
+#: footer.php:31
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: footer.php:32
+msgid "GooglePlus"
+msgstr "Google+"
+
+#: footer.php:33
+msgid "Skype"
+msgstr "Skype"
+
+#. Template Name of the plugin/theme
+msgid "Home"
+msgstr "首页"
+
+#: functions/breadcrumbs/breadcrumbs.php:25
+msgid "Archive by category"
+msgstr "分类归档："
+
+#: functions/breadcrumbs/breadcrumbs.php:28
+msgid "Search results for"
+msgstr "搜索结果："
+
+#: functions/breadcrumbs/breadcrumbs.php:95
+msgid "Posts tagged"
+msgstr "标签："
+
+#: functions/breadcrumbs/breadcrumbs.php:100
+msgid "Articles posted by"
+msgstr "作者："
+
+#: functions/breadcrumbs/breadcrumbs.php:108
+msgid "Page"
+msgstr "页面"
+
+#: functions/commentbox/comment-function.php:30
+msgid "Reply"
+msgstr "回复"
+
+#: functions/commentbox/comment-function.php:41
+msgid "%s"
+msgstr "%s"
+
+#: functions/commentbox/comment-function.php:45
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正等待审核。"
+
+#: functions/customizer/custo_general_settings.php:8
+msgid "General settings"
+msgstr "基本设置"
+
+#: functions/customizer/custo_general_settings.php:13
+msgid "Front page"
+msgstr "首页"
+
+#: functions/customizer/custo_general_settings.php:31
+msgid "Enable front page"
+msgstr "启用首页"
+
+#: functions/customizer/custo_general_settings.php:42
+msgid "Header logo settings"
+msgstr "顶部图标设置"
+
+#: functions/customizer/custo_general_settings.php:50
+msgid "Upload logo"
+msgstr "上传标志"
+
+#: functions/customizer/custo_general_settings.php:59
+msgid "Enter Logo Width"
+msgstr "指定图标宽度"
+
+#: functions/customizer/custo_general_settings.php:68
+msgid "Enter Logo Height"
+msgstr "指定图标高度"
+
+#: functions/customizer/custo_general_settings.php:81
+msgid "Enable logo text"
+msgstr "启用标志文本"
+
+#: functions/customizer/custo_general_settings.php:88
+#: functions/customizer/custo_general_settings.php:97
+msgid "Custom CSS"
+msgstr "自定义CSS"
+
+#: functions/customizer/custo_general_settings.php:104
+msgid "Footer copyright settings"
+msgstr "页脚版权设置"
+
+#: functions/customizer/custo_general_settings.php:110 theme_setup_data.php:63
+msgid "©2017 All Rights Reserved - Webriti. - Designed and Developed by"
+msgstr "©2017 Webriti 版权所有。设计和开发于"
+
+#: functions/customizer/custo_general_settings.php:113
+msgid "Copyright text"
+msgstr "版权说明"
+
+#: functions/customizer/custo_general_settings.php:120
+#: functions/customizer-repeater/class/customizer-repeater-control.php:612
+msgid "Social icons"
+msgstr "社交图标"
+
+#: functions/customizer/custo_general_settings.php:128
+msgid "Enable footer's social icons"
+msgstr "启用页脚的社交图标"
+
+#: functions/customizer/custo_general_settings.php:141
+#: functions/meta-box/post-meta.php:60 functions/meta-box/post-meta.php:61
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: functions/customizer/custo_general_settings.php:150
+#: functions/meta-box/post-meta.php:62 functions/meta-box/post-meta.php:63
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: functions/customizer/custo_general_settings.php:159
+#: functions/meta-box/post-meta.php:64 functions/meta-box/post-meta.php:65
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+#: functions/customizer/custo_general_settings.php:169
+msgid "GooglePlus URL"
+msgstr "Google+ URL"
+
+#: functions/customizer/custo_general_settings.php:179
+msgid "Skype URL"
+msgstr "Skype URL"
+
+#: functions/customizer/custo_layout_manager_settings.php:10
+msgid "Theme Layout Manager"
+msgstr "主题布局管理器"
+
+#: functions/customizer/custo_layout_manager_settings.php:24
+msgid "Section 1"
+msgstr "第1部分"
+
+#: functions/customizer/custo_layout_manager_settings.php:32
+#: functions/customizer/custo_layout_manager_settings.php:68
+#: functions/customizer/custo_layout_manager_settings.php:104
+#: functions/customizer/custo_layout_manager_settings.php:139
+#: functions/customizer/custo_layout_manager_settings.php:175
+#: functions/customizer/custo_layout_manager_settings.php:209
+#: functions/customizer/custo_layout_manager_settings.php:245
+msgid "Slider"
+msgstr "幻灯"
+
+#: functions/customizer/custo_layout_manager_settings.php:34
+#: functions/customizer/custo_layout_manager_settings.php:70
+#: functions/customizer/custo_layout_manager_settings.php:106
+#: functions/customizer/custo_layout_manager_settings.php:141
+#: functions/customizer/custo_layout_manager_settings.php:177
+#: functions/customizer/custo_layout_manager_settings.php:211
+#: functions/customizer/custo_layout_manager_settings.php:247
+msgid "Service section"
+msgstr "服务部分"
+
+#: functions/customizer/custo_layout_manager_settings.php:36
+#: functions/customizer/custo_layout_manager_settings.php:72
+#: functions/customizer/custo_layout_manager_settings.php:108
+#: functions/customizer/custo_layout_manager_settings.php:143
+#: functions/customizer/custo_layout_manager_settings.php:179
+#: functions/customizer/custo_layout_manager_settings.php:213
+#: functions/customizer/custo_layout_manager_settings.php:249
+msgid "Project section"
+msgstr "项目部分"
+
+#: functions/customizer/custo_layout_manager_settings.php:38
+#: functions/customizer/custo_layout_manager_settings.php:74
+#: functions/customizer/custo_layout_manager_settings.php:110
+#: functions/customizer/custo_layout_manager_settings.php:145
+#: functions/customizer/custo_layout_manager_settings.php:181
+#: functions/customizer/custo_layout_manager_settings.php:215
+#: functions/customizer/custo_layout_manager_settings.php:251
+msgid "Blog section"
+msgstr "博客部分"
+
+#: functions/customizer/custo_layout_manager_settings.php:40
+#: functions/customizer/custo_layout_manager_settings.php:76
+#: functions/customizer/custo_layout_manager_settings.php:112
+#: functions/customizer/custo_layout_manager_settings.php:147
+#: functions/customizer/custo_layout_manager_settings.php:183
+#: functions/customizer/custo_layout_manager_settings.php:217
+#: functions/customizer/custo_layout_manager_settings.php:253
+msgid "Team section"
+msgstr "团队部分"
+
+#: functions/customizer/custo_layout_manager_settings.php:42
+#: functions/customizer/custo_layout_manager_settings.php:78
+#: functions/customizer/custo_layout_manager_settings.php:114
+#: functions/customizer/custo_layout_manager_settings.php:149
+#: functions/customizer/custo_layout_manager_settings.php:185
+#: functions/customizer/custo_layout_manager_settings.php:219
+#: functions/customizer/custo_layout_manager_settings.php:255
+msgid "Testimonials section"
+msgstr "推荐信部分"
+
+#: functions/customizer/custo_layout_manager_settings.php:44
+#: functions/customizer/custo_layout_manager_settings.php:80
+#: functions/customizer/custo_layout_manager_settings.php:116
+#: functions/customizer/custo_layout_manager_settings.php:151
+#: functions/customizer/custo_layout_manager_settings.php:187
+#: functions/customizer/custo_layout_manager_settings.php:221
+#: functions/customizer/custo_layout_manager_settings.php:257
+msgid "Client slider"
+msgstr "客户幻灯"
+
+#: functions/customizer/custo_layout_manager_settings.php:60
+msgid "Section 2"
+msgstr "第2部分"
+
+#: functions/customizer/custo_layout_manager_settings.php:96
+msgid "Section 3"
+msgstr "第3部分"
+
+#: functions/customizer/custo_layout_manager_settings.php:131
+msgid "Section 4"
+msgstr "第4部分"
+
+#: functions/customizer/custo_layout_manager_settings.php:167
+msgid "Section 5"
+msgstr "第5部分"
+
+#: functions/customizer/custo_layout_manager_settings.php:201
+msgid "Section 6"
+msgstr "第6部分"
+
+#: functions/customizer/custo_layout_manager_settings.php:237
+msgid "Section 7"
+msgstr "第7部分"
+
+#: functions/customizer/custo_post_meta_setting.php:8
+msgid "Blog meta settings"
+msgstr "博客元数据设置"
+
+#: functions/customizer/custo_post_meta_setting.php:14
+msgid "Hide post meta from blog pages, archive pages, categories, author, etc."
+msgstr "在博客，存档，分类，作者等页面隐藏文章元数据。"
+
+#: functions/customizer/custo_post_slugs_settings.php:6
+msgid "SEO Friendly URL"
+msgstr "SEO 友好 URL"
+
+#: functions/customizer/custo_post_slugs_settings.php:14
+msgid "Project slug"
+msgstr "项目别名"
+
+#: functions/customizer/custo_post_slugs_settings.php:23
+msgid "Project’s category slug"
+msgstr "项目分类目录"
+
+#: functions/customizer/custo_post_slugs_settings.php:33
+msgid "Client slug"
+msgstr "客户别名"
+
+#: functions/customizer/custo_post_slugs_settings.php:43
+msgid "Team slug"
+msgstr "团队别名"
+
+#: functions/customizer/custo_post_slugs_settings.php:55
+msgid ""
+"After changing the slug, please don't forget to save the permalinks. Without "
+"saving them, the old permalinks will not be updated."
+msgstr "改变别名后，请保存固定链接。如果没保存，固定链接不会被更新。"
+
+#: functions/customizer/custo_post_slugs_settings.php:78
+msgid "Click here permalinks setting"
+msgstr "点击这到固定链接设置"
+
+#: functions/customizer/custo_sections_settings.php:12
+msgid "Homepage section settings"
+msgstr "首页部分设置"
+
+#: functions/customizer/custo_sections_settings.php:17
+msgid "Infobar settings"
+msgstr "信息栏设置"
+
+#: functions/customizer/custo_sections_settings.php:25
+msgid "Enable Infobar"
+msgstr "启用信息栏"
+
+#: functions/customizer/custo_sections_settings.php:29
+#: functions/customizer/custo_sections_settings.php:57
+#: functions/customizer/custo_sections_settings.php:168
+#: functions/customizer/custo_sections_settings.php:263
+#: functions/customizer/custo_sections_settings.php:303
+#: functions/customizer/custo_sections_settings.php:342
+#: functions/customizer/custo_sections_settings.php:400
+#: functions/customizer/custo_sections_settings.php:460
+#: functions/customizer/custo_sections_settings.php:517
+#: functions/customizer/custo_template_settings.php:28
+#: functions/customizer/custo_template_settings.php:41
+#: functions/customizer/custo_template_settings.php:64
+#: functions/customizer/custo_template_settings.php:77
+#: functions/customizer/custo_template_settings.php:153
+#: functions/customizer/custo_template_settings.php:219
+#: functions/customizer/custo_template_settings.php:241
+msgid "ON"
+msgstr "激活"
+
+#: functions/customizer/custo_sections_settings.php:30
+#: functions/customizer/custo_sections_settings.php:58
+#: functions/customizer/custo_sections_settings.php:169
+#: functions/customizer/custo_sections_settings.php:264
+#: functions/customizer/custo_sections_settings.php:304
+#: functions/customizer/custo_sections_settings.php:343
+#: functions/customizer/custo_sections_settings.php:401
+#: functions/customizer/custo_sections_settings.php:461
+#: functions/customizer/custo_sections_settings.php:518
+#: functions/customizer/custo_template_settings.php:29
+#: functions/customizer/custo_template_settings.php:42
+#: functions/customizer/custo_template_settings.php:65
+#: functions/customizer/custo_template_settings.php:78
+#: functions/customizer/custo_template_settings.php:154
+#: functions/customizer/custo_template_settings.php:220
+#: functions/customizer/custo_template_settings.php:242
+msgid "OFF"
+msgstr "禁用"
+
+#: functions/customizer/custo_sections_settings.php:35 theme_setup_data.php:25
+msgid "Busiprof: the perfect WordPress theme for an app and web developer"
+msgstr "Busiprof：应用程序和网页开发者的完美 WordPress 主题"
+
+#: functions/customizer/custo_sections_settings.php:38
+msgid "Infobar text"
+msgstr "信息栏原文"
+
+#: functions/customizer/custo_sections_settings.php:45
+msgid "Slider settings"
+msgstr "幻灯设置"
+
+#: functions/customizer/custo_sections_settings.php:53
+msgid "Enable slider"
+msgstr "启用幻灯"
+
+#: functions/customizer/custo_sections_settings.php:69
+msgid "Slider Content"
+msgstr "幻灯内容"
+
+#: functions/customizer/custo_sections_settings.php:71
+msgid "Add new slide"
+msgstr "添加幻灯片"
+
+#: functions/customizer/custo_sections_settings.php:72
+msgid "Slide"
+msgstr "幻灯片"
+
+#: functions/customizer/custo_sections_settings.php:86
+msgid "Animation"
+msgstr "动画"
+
+#: functions/customizer/custo_sections_settings.php:90
+msgid "slide"
+msgstr "幻灯片"
+
+#: functions/customizer/custo_sections_settings.php:91
+msgid "fade"
+msgstr "渐隐效果"
+
+#: functions/customizer/custo_sections_settings.php:99
+msgid "Direction"
+msgstr "方向"
+
+#: functions/customizer/custo_sections_settings.php:103
+msgid "horizontal"
+msgstr "水平"
+
+#: functions/customizer/custo_sections_settings.php:104
+msgid "vertical"
+msgstr "垂直"
+
+#: functions/customizer/custo_sections_settings.php:112
+#: functions/customizer/custo_sections_settings.php:561
+msgid "Animation speed"
+msgstr "动画速度"
+
+#: functions/customizer/custo_sections_settings.php:134
+msgid "Slideshow speed"
+msgstr "幻灯速度"
+
+#: functions/customizer/custo_sections_settings.php:155
+msgid "Service settings"
+msgstr "服务设置"
+
+#: functions/customizer/custo_sections_settings.php:164
+msgid "Enable Services on homepage"
+msgstr "在首页启用服务"
+
+#: functions/customizer/custo_sections_settings.php:176
+#: theme_setup_data.php:79
+msgid "Awesome Services"
+msgstr "善巧服务"
+
+#: functions/customizer/custo_sections_settings.php:179
+#: functions/customizer/custo_sections_settings.php:273
+#: functions/customizer/custo_sections_settings.php:313
+#: functions/customizer/custo_sections_settings.php:352
+#: functions/customizer/custo_sections_settings.php:470
+#: functions/customizer/custo_sections_settings.php:527
+#: functions/customizer/custo_template_settings.php:96
+#: functions/customizer/custo_template_settings.php:300
+#: functions/customizer-repeater/class/customizer-repeater-control.php:256
+#: functions/customizer-repeater/class/customizer-repeater-control.php:405
+#: functions/widgets/busiprof-widget-contact.php:115
+msgid "Title"
+msgstr "标题"
+
+#: functions/customizer/custo_sections_settings.php:185
+#: functions/customizer/custo_sections_settings.php:280
+#: functions/customizer/custo_sections_settings.php:358
+#: functions/customizer/custo_sections_settings.php:476
+#: functions/customizer/custo_sections_settings.php:534
+#: functions/customizer/custo_template_settings.php:102
+#: functions/customizer/custo_template_settings.php:306
+#: theme_setup_data.php:59 theme_setup_data.php:74 theme_setup_data.php:80
+#: theme_setup_data.php:88 theme_setup_data.php:94 theme_setup_data.php:107
+#: theme_setup_data.php:111 theme_setup_data.php:117 theme_setup_data.php:120
+msgid ""
+"We are a group of passionate designers and developers who really love "
+"creating awesome WordPress themes and giving support."
+msgstr ""
+"我们是一群充满激情的设计师和开发人员，非常喜欢创造令人敬畏的WordPress主题以及"
+"提供支持。"
+
+#: functions/customizer/custo_sections_settings.php:188
+#: functions/customizer/custo_sections_settings.php:283
+#: functions/customizer/custo_sections_settings.php:322
+#: functions/customizer/custo_sections_settings.php:361
+#: functions/customizer/custo_sections_settings.php:479
+#: functions/customizer/custo_sections_settings.php:537
+#: functions/customizer/custo_template_settings.php:105
+#: functions/customizer/custo_template_settings.php:309
+#: functions/customizer-repeater/class/customizer-repeater-control.php:270
+#: functions/customizer-repeater/class/customizer-repeater-control.php:419
+#: functions/meta-box/post-meta.php:25 functions/meta-box/post-meta.php:26
+#: functions/meta-box/post-meta.php:37 functions/meta-box/post-meta.php:38
+#: functions/meta-box/post-meta.php:58 functions/meta-box/post-meta.php:59
+#: functions/widgets/busiprof-header-widget.php:100
+msgid "Description"
+msgstr "描述"
+
+#: functions/customizer/custo_sections_settings.php:198
+msgid "Service content"
+msgstr "服务内容"
+
+#: functions/customizer/custo_sections_settings.php:201
+msgid "Add new Service"
+msgstr "添加服务"
+
+#. Template Name of the plugin/theme
+msgid "Service"
+msgstr "服务"
+
+#: functions/customizer/custo_sections_settings.php:214
+#: theme_setup_data.php:82
+msgid "More Services"
+msgstr "更多服务"
+
+#: functions/customizer/custo_sections_settings.php:217
+#: functions/customizer-repeater/class/customizer-repeater-control.php:279
+#: functions/customizer-repeater/class/customizer-repeater-control.php:427
+msgid "Button Text"
+msgstr "按钮文字"
+
+#: functions/customizer/custo_sections_settings.php:226
+msgid "Button Link"
+msgstr "按钮链接"
+
+#: functions/customizer/custo_sections_settings.php:242
+#: functions/meta-box/post-meta.php:24 functions/meta-box/post-meta.php:43
+#: functions/widgets/busiprof-header-widget.php:106
+msgid "Open link in new tab"
+msgstr "在新标签页打开链接"
+
+#: functions/customizer/custo_sections_settings.php:251
+msgid "Project settings"
+msgstr "项目设置"
+
+#: functions/customizer/custo_sections_settings.php:259
+msgid "Enable Home Project section"
+msgstr "启用在主页项目部分"
+
+#: functions/customizer/custo_sections_settings.php:270
+#: functions/customizer/custo_template_settings.php:93 theme_setup_data.php:73
+#: theme_setup_data.php:87 theme_setup_data.php:116
+msgid "Recent Projects"
+msgstr "近期项目"
+
+#: functions/customizer/custo_sections_settings.php:291
+msgid "Recent Blog setting"
+msgstr "近期博客设置"
+
+#: functions/customizer/custo_sections_settings.php:299
+msgid "Enable Home Blog section"
+msgstr "启用在主页博客部分"
+
+#: functions/customizer/custo_sections_settings.php:310
+#: theme_setup_data.php:110
+msgid "Recent Blog"
+msgstr "近期博客"
+
+#: functions/customizer/custo_sections_settings.php:319
+#: functions/customizer/customizer.php:140
+#: functions/customizer/customizer.php:149
+#: functions/customizer/customizer.php:158 index-slider-two.php:53
+#: index-slider-two.php:63 index-slider-two.php:73 index-slider.php:94
+#: index-slider.php:104 index-slider.php:114 index-testimonials-two.php:55
+msgid ""
+"We are a group of passionate designers and developers who love to create "
+"awesome WordPress themes with an amazing support and the coolest video "
+"documentation."
+msgstr ""
+"我们是一群充满激情的设计师和开发人员，非常喜欢创造令人敬畏的WordPress 主题，"
+"提供支持以及最酷的视频文档。"
+
+#: functions/customizer/custo_sections_settings.php:330
+msgid "Team setting"
+msgstr "团队设置"
+
+#: functions/customizer/custo_sections_settings.php:338
+msgid "Enable Home Team section"
+msgstr "启用在主页的团队部分"
+
+#: functions/customizer/custo_sections_settings.php:349
+#: theme_setup_data.php:93
+msgid "Meet The Team"
+msgstr "团队介绍"
+
+#: functions/customizer/custo_sections_settings.php:375
+msgid "Click here to add Team"
+msgstr "点击这里添加团队员"
+
+#: functions/customizer/custo_sections_settings.php:396
+msgid "Enable background image"
+msgstr "启用背景图像"
+
+#: functions/customizer/custo_sections_settings.php:412
+msgid "Background Image"
+msgstr "背景图像"
+
+#: functions/customizer/custo_sections_settings.php:425
+msgid "Enable background image overlay"
+msgstr "启用背景图像透明膜"
+
+#: functions/customizer/custo_sections_settings.php:438
+msgid "Background attachment"
+msgstr "背景附着方式"
+
+#: functions/customizer/custo_sections_settings.php:448
+msgid "Testimonial settings"
+msgstr "推荐信设置"
+
+#: functions/customizer/custo_sections_settings.php:456
+msgid "Enable Home Testimonial section"
+msgstr "启用在主页推荐信部分"
+
+#: functions/customizer/custo_sections_settings.php:467
+#: theme_setup_data.php:106
+msgid "Our Testimonials"
+msgstr "我们的推荐信"
+
+#: functions/customizer/custo_sections_settings.php:489
+msgid "Testimonial content"
+msgstr "推荐信内容"
+
+#: functions/customizer/custo_sections_settings.php:491
+msgid "Add new Testimonial"
+msgstr "添加推荐信"
+
+#: functions/customizer/custo_sections_settings.php:492
+msgid "Testimonial"
+msgstr "推荐信"
+
+#: functions/customizer/custo_sections_settings.php:505
+msgid "Client Slider settings"
+msgstr "客户幻灯设置"
+
+#: functions/customizer/custo_sections_settings.php:513
+msgid "Enable Home Client section"
+msgstr "启用在主页客户部分"
+
+#: functions/customizer/custo_sections_settings.php:524
+#: theme_setup_data.php:58
+msgid "Meet our clients"
+msgstr "我们的客户介绍"
+
+#: functions/customizer/custo_sections_settings.php:546
+msgid "Number of shown clients"
+msgstr "显示客户数量："
+
+#: functions/customizer/custo_sections_settings.php:587
+msgid "Click here to add client"
+msgstr "点击这里添加客户"
+
+#: functions/customizer/custo_template_settings.php:8
+msgid "Template settings"
+msgstr "模板设置"
+
+#: functions/customizer/custo_template_settings.php:15
+msgid "About Us page settings"
+msgstr "关于我们页面设置"
+
+#: functions/customizer/custo_template_settings.php:24
+msgid "Enable Team section"
+msgstr "启用团队部分"
+
+#: functions/customizer/custo_template_settings.php:37
+#: functions/customizer/custo_template_settings.php:73
+msgid "Enable Client section"
+msgstr "启用顾客部分"
+
+#: functions/customizer/custo_template_settings.php:50
+msgid "Service page settings"
+msgstr "服务页面设置"
+
+#: functions/customizer/custo_template_settings.php:60
+msgid "Enable Testimonial section"
+msgstr "启用推荐信部分"
+
+#: functions/customizer/custo_template_settings.php:85
+msgid "Project page settings"
+msgstr "项目页面设置"
+
+#: functions/customizer/custo_template_settings.php:114
+msgid "Number of displayed projects"
+msgstr "已经显示的项目数目"
+
+#: functions/customizer/custo_template_settings.php:126
+#: functions/customizer/custo_template_settings.php:259
+msgid "Select column layout"
+msgstr "选择栏式布局"
+
+#: functions/customizer/custo_template_settings.php:141
+msgid "Contact page setting"
+msgstr "联系页面设置"
+
+#: functions/customizer/custo_template_settings.php:149
+msgid "Enable contact information"
+msgstr "启用连接信息"
+
+#: functions/customizer/custo_template_settings.php:162
+msgid "Address one"
+msgstr "地址行一"
+
+#: functions/customizer/custo_template_settings.php:171
+msgid "Address two"
+msgstr "地址行二"
+
+#: functions/customizer/custo_template_settings.php:215
+msgid "Enable Google Maps"
+msgstr "启用 Google 地图"
+
+#: functions/customizer/custo_template_settings.php:229
+msgid "Google Maps URL"
+msgstr "Google 地图链接"
+
+#: functions/customizer/custo_template_settings.php:237
+msgid "Enable Client slider"
+msgstr "启用客户幻灯"
+
+#: functions/customizer/custo_template_settings.php:248
+msgid "Project Archive page settings"
+msgstr "项目归档页面设置"
+
+#: functions/customizer/custo_template_settings.php:279
+msgid "Click here to add project"
+msgstr "点击这里添加项目"
+
+#: functions/customizer/custo_template_settings.php:297
+#: theme_setup_data.php:119
+msgid "Recent Project category"
+msgstr "近期项目分类"
+
+#: functions/customizer/custo_theme_style.php:42
+msgid "Predefined default background"
+msgstr "预定义的默认背景图片"
+
+#: functions/customizer/custo_theme_style.php:71
+msgid "Theme style settings"
+msgstr "主题外观设置"
+
+#: functions/customizer/custo_theme_style.php:79
+msgid "wide"
+msgstr "宽"
+
+#: functions/customizer/custo_theme_style.php:90
+msgid "Theme Layout"
+msgstr "主题布局"
+
+#: functions/customizer/custo_theme_style.php:105
+msgid "Predefined default backgrounds"
+msgstr "预定义的默认背景图片"
+
+#: functions/customizer/custo_theme_style.php:135
+msgid "Predefined colors"
+msgstr "预定义颜色"
+
+#: functions/customizer/custo_theme_style.php:170
+msgid "Enable custom color skin"
+msgstr "自定义颜色皮"
+
+#: functions/customizer/custo_theme_style.php:188
+msgid "Skin color"
+msgstr "肤色"
+
+#: functions/customizer/customizer.php:38 index-service.php:156
+#: service-template.php:175
+msgid "Web Design"
+msgstr "网页设计"
+
+#: functions/customizer/customizer.php:39
+#: functions/customizer/customizer.php:48
+#: functions/customizer/customizer.php:57
+#: functions/customizer/customizer.php:67 index-service.php:170
+#: service-template.php:189
+msgid ""
+"It is a long established fact that a reader will be distracted by the "
+"readable content of a page when looking at its layout."
+msgstr "这是一个长期以来的事实，读者会在看到布局时被页面的可读内容分散注意力。"
+
+#: functions/customizer/customizer.php:47 index-service.php:156
+#: service-template.php:175
+msgid "Unique Elements"
+msgstr "独特元素"
+
+#: functions/customizer/customizer.php:56 index-service.php:156
+#: service-template.php:175
+msgid "User Friendly"
+msgstr "用户友好"
+
+#: functions/customizer/customizer.php:66 index-service.php:156
+#: service-template.php:175
+msgid "24/7 Support"
+msgstr "24/7 支持"
+
+#: functions/customizer/customizer.php:139 index-project.php:181
+#: index-project.php:274 index-slider-two.php:52 index-slider.php:93
+msgid "Responsive WP theme"
+msgstr "响应式 WordPress 主题"
+
+#: functions/customizer/customizer.php:148 index-project.php:49
+#: index-project.php:203 index-slider-two.php:62 index-slider.php:103
+msgid "Graphic design"
+msgstr "平面造型设计"
+
+#: functions/customizer/customizer.php:157 index-slider-two.php:72
+#: index-slider.php:113
+msgid "User friendly"
+msgstr "用户友好"
+
+#: functions/customizer/customizer.php:206
+msgid "Natalie Portman"
+msgstr "娜塔莉·波特曼"
+
+#: functions/customizer/customizer.php:207
+#: functions/customizer/customizer.php:217
+#: functions/customizer/customizer.php:226
+#: functions/customizer/customizer.php:235
+msgid ""
+"We are group of passionate designers and developers who really love to "
+"create wordpress themes with amazing support. Widest laborum dolo rumes "
+"fugats untras. Ethar omnis iste natus error sit voluptatem "
+"accusantiexplicabo. Nemo enim ipsam eque porro quisquam est, qui dolorem "
+"ipsum am quaerat voluptatem..."
+msgstr ""
+"我们是一群充满激情的设计师和开发人员，非常喜欢创造令人敬畏的WordPress 主题以"
+"及提供支持。范例文字，请取代此段落文字。此段落文字为范例文字内容，请务必取"
+"代。范例文字，请取代此段落文字。此段落文字为范例文字内容，请务必取代。范例文"
+"字，请取代此段落文字。此段落文字为范例文字内容，请务必取代。"
+
+#: functions/customizer/customizer.php:216
+msgid "Robert Johnson"
+msgstr "罗伯特·约翰逊"
+
+#: functions/customizer/customizer.php:225
+msgid "Annah Doe"
+msgstr "安娜·多伊"
+
+#: functions/customizer/customizer.php:234
+msgid "Charlie Sun"
+msgstr "查理·孙"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:33
+msgid "Add new field"
+msgstr "添加字段"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:38
+msgid "Customizer Repeater"
+msgstr "中继定制器"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:263
+#: functions/customizer-repeater/class/customizer-repeater-control.php:412
+msgid "Subtitle"
+msgstr "字幕"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:290
+#: functions/customizer-repeater/class/customizer-repeater-control.php:437
+#: functions/customizer-repeater/class/customizer-repeater-control.php:626
+#: functions/customizer-repeater/class/customizer-repeater-control.php:648
+#: functions/meta-box/post-meta.php:22 functions/meta-box/post-meta.php:23
+#: functions/meta-box/post-meta.php:41 functions/meta-box/post-meta.php:42
+#: functions/widgets/busiprof-header-widget.php:103
+msgid "Link"
+msgstr "链接"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:309
+#: functions/customizer-repeater/class/customizer-repeater-control.php:455
+msgid "Video Url"
+msgstr "视频链接"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:333
+#: functions/customizer-repeater/class/customizer-repeater-control.php:397
+msgid "Color"
+msgstr "颜色"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:343
+#: functions/customizer-repeater/class/customizer-repeater-control.php:466
+msgid "Shortcode"
+msgstr "短代码"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:351
+#: functions/customizer-repeater/class/customizer-repeater-control.php:475
+#: functions/meta-box/post-meta.php:39 functions/meta-box/post-meta.php:40
+#: functions/meta-box/post-meta.php:56 functions/meta-box/post-meta.php:57
+msgid "Designation"
+msgstr "职位名称"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:367
+#: functions/customizer-repeater/class/customizer-repeater-control.php:486
+msgid "Delete field"
+msgstr "删除字段"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:523
+msgid "Open link in new tab:"
+msgstr "在新标签页打开链接"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:534
+#: functions/customizer-repeater/class/customizer-repeater-control.php:602
+msgid "Icon"
+msgstr "图标"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:539
+msgid ""
+"Note: Some icons may not be displayed here. You can see the full list of "
+"icons at %1$s."
+msgstr ""
+"注意：某些图标可能没有显示在此处。 您可以在 %1$s 上看到完整的图标列表。"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:540
+msgid "http://fontawesome.io/icons/"
+msgstr "http://fontawesome.io/icons/"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:557
+#: functions/customizer-repeater/class/customizer-repeater-control.php:603
+msgid "Image"
+msgstr "图像"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:560
+msgid "Upload Image"
+msgstr "上传图像"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:569
+msgid "Slide Format"
+msgstr "幻灯片格式"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:573
+msgid "Standard"
+msgstr "标准"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:577
+msgid "Aside"
+msgstr "日志"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:581
+msgid "Quote"
+msgstr "引用"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:585
+msgid "Status"
+msgstr "状态"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:589
+msgid "Video"
+msgstr "视频"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:599
+msgid "Image type"
+msgstr "图像类型"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:604
+msgid "None"
+msgstr "无"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:629
+#: functions/customizer-repeater/class/customizer-repeater-control.php:659
+msgid "Remove Icon"
+msgstr "移除图标"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:634
+#: functions/customizer-repeater/class/customizer-repeater-control.php:667
+msgid "Add Icon"
+msgstr "添加图标"
+
+#: functions/meta-box/post-meta.php:6
+msgid "Slider Detail"
+msgstr "幻灯详情"
+
+#: functions/meta-box/post-meta.php:7
+msgid "Service Detail"
+msgstr "服务详情"
+
+#: functions/meta-box/post-meta.php:8
+msgid "Project Details"
+msgstr "项目详情"
+
+#: functions/meta-box/post-meta.php:9
+msgid "Testimonial Detail"
+msgstr "推荐信详情"
+
+#: functions/meta-box/post-meta.php:10
+msgid "Member Details"
+msgstr "会员详情"
+
+#: functions/meta-box/post-meta.php:11
+msgid "Client Detail"
+msgstr "客户详情"
+
+#: functions/meta-box/post-meta.php:70
+msgid "Upload client image using featured image"
+msgstr "使用特色图片上传客户端图像"
+
+#: functions/post-type/custom-post-type.php:29
+msgid "Project"
+msgstr "项目"
+
+#: functions/post-type/custom-post-type.php:31
+#: functions/post-type/custom-post-type.php:33
+#: functions/post-type/custom-post-type.php:68
+#: functions/post-type/custom-post-type.php:70
+#: functions/post-type/custom-post-type.php:98
+#: functions/post-type/custom-post-type.php:100
+msgid "Add New"
+msgstr "添加"
+
+#: functions/post-type/custom-post-type.php:32
+msgid "Add New Project"
+msgstr "添加项目"
+
+#: functions/post-type/custom-post-type.php:34
+#: functions/post-type/custom-post-type.php:71
+#: functions/post-type/custom-post-type.php:101
+msgid "New Link"
+msgstr "添加链接"
+
+#: functions/post-type/custom-post-type.php:35
+msgid "All Projects"
+msgstr "每个项目"
+
+#: functions/post-type/custom-post-type.php:36
+#: functions/post-type/custom-post-type.php:73
+#: functions/post-type/custom-post-type.php:103
+msgid "View Link"
+msgstr "查看链接"
+
+#: functions/post-type/custom-post-type.php:37
+#: functions/post-type/custom-post-type.php:74
+#: functions/post-type/custom-post-type.php:104
+msgid "Search Links"
+msgstr "搜索链接"
+
+#: functions/post-type/custom-post-type.php:38
+#: functions/post-type/custom-post-type.php:75
+#: functions/post-type/custom-post-type.php:105
+msgid "No Links found"
+msgstr "未找到链接。"
+
+#: functions/post-type/custom-post-type.php:39
+#: functions/post-type/custom-post-type.php:76
+#: functions/post-type/custom-post-type.php:106
+msgid "No links found in trash"
+msgstr "回收站中没有链接"
+
+#: functions/post-type/custom-post-type.php:66
+msgid "Our Team"
+msgstr "我们的团队"
+
+#: functions/post-type/custom-post-type.php:69
+msgid "Add New Member"
+msgstr "添加会员"
+
+#: functions/post-type/custom-post-type.php:72
+msgid "All Members"
+msgstr "所有会员"
+
+#: functions/post-type/custom-post-type.php:96
+msgid " Client"
+msgstr "客户"
+
+#: functions/post-type/custom-post-type.php:99
+msgid "Add New Client"
+msgstr "添加客户"
+
+#: functions/post-type/custom-post-type.php:102
+msgid "All Clients"
+msgstr "每个客户"
+
+#: functions/taxonomies/taxonomie.php:16
+msgid "Project categories"
+msgstr "项目分类"
+
+#: functions/widgets/busiprof-header-widget.php:14
+msgid "WBR: Header Widget"
+msgstr "WBR: Header Widget"
+
+#: functions/widgets/busiprof-header-widget.php:76
+#: functions/widgets/busiprof-header-widget.php:101
+msgid "Email us: themes@busiprof.com"
+msgstr "给我们发邮件：themes@busiprof.com"
+
+#: functions/widgets/busiprof-header-widget.php:96
+msgid "Font Awesome icon"
+msgstr "Font Awesome 图标"
+
+#: functions/widgets/busiprof-header-widget.php:98
+msgid "Find all icons"
+msgstr "寻找所有的图标"
+
+#: functions/widgets/busiprof-header-widget.php:98
+msgid "here"
+msgstr "在这里"
+
+#: functions/widgets/busiprof-latest-widget.php:16
+msgid "WBR : Latest Posts"
+msgstr "WBR : Latest Posts"
+
+#: functions/widgets/busiprof-latest-widget.php:17
+msgid "To display your recent posts"
+msgstr "显示您近期的文章"
+
+#: functions/widgets/busiprof-latest-widget.php:34
+#: functions/widgets/busiprof-latest-widget.php:110
+#: functions/widgets/busiprof-latest-widget.php:187
+msgid "Popular"
+msgstr "热门"
+
+#: functions/widgets/busiprof-latest-widget.php:36
+#: functions/widgets/busiprof-latest-widget.php:112
+#: functions/widgets/busiprof-latest-widget.php:189
+msgid "Recent"
+msgstr "近期"
+
+#: functions/widgets/busiprof-widget-contact.php:16
+msgid "WBR: Contact Widget"
+msgstr "WBR: Contact Widget"
+
+#: functions/widgets/busiprof-widget-contact.php:17
+msgid "To display your contact information"
+msgstr "显示您联络信息"
+
+#: functions/widgets/busiprof-widget-contact.php:49
+msgid "Thank you"
+msgstr "谢谢"
+
+#: functions/widgets/busiprof-widget-contact.php:49
+msgid "Your information has been sent."
+msgstr "您的信息已发送。"
+
+#: functions/widgets/busiprof-widget-contact.php:80
+msgid "Sorry, your nonce did not verify."
+msgstr "对不起，无法确认您的 nonce。"
+
+#: functions/widgets/busiprof-widget-contact.php:87
+msgid "sent you a message from"
+msgstr "以一下方式发给您了一个信息："
+
+#: functions/widgets/busiprof-widget-contact.php:111
+msgid "Quick contact"
+msgstr "快速联系"
+
+#: functions/widgets/custom-widgets.php:7
+#: functions/widgets/custom-widgets.php:9
+msgid "Sidebar widget area"
+msgstr "边栏挂件区"
+
+#: functions/widgets/custom-widgets.php:17
+#: functions/widgets/custom-widgets.php:19
+msgid "Footer widget area"
+msgstr "页脚挂件区"
+
+#: functions/widgets/custom-widgets.php:27
+#: functions/widgets/custom-widgets.php:29
+msgid "WooCommerce sidebar widget area"
+msgstr "WooCommerce 边栏区或"
+
+#: functions/widgets/custom-widgets.php:39
+#: functions/widgets/custom-widgets.php:41
+msgid "Top header left area"
+msgstr "页顶左侧区域"
+
+#: functions/widgets/custom-widgets.php:50
+#: functions/widgets/custom-widgets.php:52
+msgid "Top header right area"
+msgstr "页顶右侧区域"
+
+#: functions.php:82
+msgid "Primary Menu"
+msgstr "主菜单"
+
+#: index-project.php:47
+msgid "All"
+msgstr "所有"
+
+#: index-project.php:48
+msgid "Web design"
+msgstr "网页设计"
+
+#: index-project.php:50
+msgid "Web development"
+msgstr "网页开发"
+
+#: index-project.php:51
+msgid "Multimedia"
+msgstr "多媒体"
+
+#: index-project.php:52
+msgid "Print media"
+msgstr "印刷媒体"
+
+#: index-project.php:137 index-project.php:230 index-project.php:303
+#: index-project.php:354 index-project.php:383 index-project.php:434
+msgid "Business cards"
+msgstr "名片"
+
+#: index-project.php:140 index-project.php:162 index-project.php:184
+#: index-project.php:206 index-project.php:233 index-project.php:255
+#: index-project.php:277 index-project.php:306 index-project.php:328
+#: index-project.php:357 index-project.php:386 index-project.php:408
+#: index-project.php:437
+msgid "Graphic design & web design"
+msgstr "平面造型设计和网页设计"
+
+#: index-project.php:159 index-project.php:252 index-project.php:325
+msgid "Clean and usable UI kit"
+msgstr "干净和可用的 UI 工具包"
+
+#: index-project.php:405
+msgid "Responsive design"
+msgstr "响应式网页设计"
+
+#: index-testimonials-two.php:56
+msgid "(Sales & Marketing)"
+msgstr "（市场销售）"
+
+#: index-testimonials.php:103
+msgid ""
+"We are a group of passionate designers and developers who really love "
+"creating awesome WordPress themes & giving support. Widest laborum dolo "
+"rumes fugats untras. Ethar omnis iste natus error sit voluptatem "
+"accusantiexplicabo. Nemo enim ipsam eque porro quisquam est, qui dolorem "
+"ipsum am quaerat voluptatem..."
+msgstr ""
+"我们是一群充满激情的设计师和开发人员，非常喜欢创造令人敬畏的WordPress 主题以"
+"及提供支持。范例文字，请取代此段落文字。此段落文字为范例文字内容，请务必取"
+"代。范例文字，请取代此段落文字。此段落文字为范例文字内容，请务必取代。范例文"
+"字，请取代此段落文字。此段落文字为范例文字内容，请务必取代。"
+
+#: search.php:27
+msgid "Nothing found"
+msgstr "未找到"
+
+#: search.php:28
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr "抱歉，没有符合您搜索条件的结果。请换其它关键词再试。"
+
+#: searchform.php:15 searchform.php:16
+msgid "Search"
+msgstr "搜索"
+
+#: single-busiprof_portfolio.php:25
+msgid "Leave a comment"
+msgstr "留下评论"
+
+#: tag.php:14
+msgid "Tag Archive "
+msgstr "标签归档"
+
+#. Theme Name of the plugin/theme
+msgid "BusiProf Pro"
+msgstr "BusiProf Pro"
+
+#. Description of the plugin/theme
+msgid ""
+"A responsive theme for all type of business that features multiple nav "
+"menus, several sidebars, and more. With pixel-perfect design, it's great for "
+"any blogger who wants a new look for their site. The theme is built using "
+"Twitter bootstrap."
+msgstr ""
+"一种适合所有类型业务的响应主题，具有多个导航菜单，几个侧边栏等。 通过像素完美"
+"的设计，任何想要新的外观的博主可以考虑用。 该主题是使用Twitter Bootstrap构建"
+"的。"
+
+#. Template Name of the plugin/theme
+msgid "Page Fullwidth"
+msgstr "页全宽度"
+
+#. Template Name of the plugin/theme
+msgid "About Us"
+msgstr "关于我们"
+
+#. Template Name of the plugin/theme
+msgid "Blog-Fullwidth"
+msgstr "博客-全宽度"
+
+#. Template Name of the plugin/theme
+msgid "Blog-left-sidebar"
+msgstr "博格-左边栏"
+
+#. Template Name of the plugin/theme
+msgid "Blog-Right-Sidebar"
+msgstr "博格-右边栏"
+
+#. Template Name of the plugin/theme
+msgid "Contact"
+msgstr "联系"
+
+#. Template Name of the plugin/theme
+msgid "Project-2-column"
+msgstr "项目-2列"
+
+#. Template Name of the plugin/theme
+msgid "Homepage Two"
+msgstr "主页二"
+
+#. Template Name of the plugin/theme
+msgid "Project-3-column"
+msgstr "项目-3列"
+
+#. Template Name of the plugin/theme
+msgid "Project-4-column"
+msgstr "项目-4列"
+
+#. Template Name of the plugin/theme
+msgid "Project With Category"
+msgstr "项目与类别"
